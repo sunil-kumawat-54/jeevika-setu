@@ -1,0 +1,6 @@
+# OPTIONAL heavy deps: real multilingual-e5-base embeddings (CPU only).
+# Install with:  pip install --index-url https://download.pytorch.org/whl/cpu torch
+#                pip install -r requirements-ml.txt
+# When absent, core/rag/embedder.py falls back to the deterministic hashing backend
+# and records the backend name in embedding_meta so vectors are never mixed.
+sentence-transformers==3.3.1

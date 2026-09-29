@@ -1,0 +1,18 @@
+{
+  "captured_at": "2026-09-28",
+  "status": "Both source trees were untracked at capture time.",
+  "trees": [
+    {
+      "root": "AVSAR-main/AVSAR-main",
+      "file_count": 1336,
+      "manifest_sha256": "27c8eac6c128f3e314b86ba24916d755c6fd9ee8fa02ef6cbdb412db60cf428b"
+    },
+    {
+      "root": "KaushalVani-main/KaushalVani-main",
+      "file_count": 66,
+      "manifest_sha256": "cd0cb5e59672c9a6bb851a9ebb7210f779054529c5880d4649d7487c1ee90d5d"
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "entry_format": "sha256 bytes relative-path, sorted by path"
+}

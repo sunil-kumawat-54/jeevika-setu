@@ -1,0 +1,6959 @@
+{
+  "provenance": {
+    "failure_reason": null,
+    "fallback_note": "centre_supply is synthetic BY DESIGN, not because a fetch failed. research.md 4.3: NSDC skill-gap studies stop at sector x skill-band, SANKALP DSDPs are not bulk-downloadable, NCS publishes no open data, and SIDH's course-listing route is undiscovered. Every row sets synthetic=true and the dashboard renders a visible badge. Replacing this table with a real SIDH/State-Mission extract is the Q1 roadmap item in PLAN.md 13.",
+    "fetched_at": "2026-09-29T07:47:47.741072+00:00",
+    "freshness_at": "2026-09-29T07:47:47.741072+00:00",
+    "http_status": null,
+    "last_verified_at": null,
+    "mode": "synthetic",
+    "notes": [
+      "83 curated QP codes; demo districts stock ~75% of them so the trades beneficiaries actually ask for have local seats",
+      "per-district QP counts: {'Latur': 90, 'Nanded': 90, 'Varanasi': 90, 'Nalgonda': 90, 'Gaya': 90, 'Anantnag': 12, 'Budgam': 12, 'Baramulla': 12, 'Doda': 12, 'Jammu': 12, 'Kathua': 12, 'Kupwara': 12, 'Poonch': 12, 'Pulwama': 12, 'Rajouri': 12, 'Srinagar': 12, 'Udhampur': 12, 'Kishtwar': 12, 'Ramban': 12, 'Kulgam': 12, 'Bandipora': 12, 'Samba': 12, 'Shopian': 12, 'Ganderbal': 12, 'Reasi': 12, 'Bilaspur': 12, 'Chamba': 12, 'Hamirpur': 12, 'Kangra': 12, 'Kinnaur': 12, 'Kullu': 12, 'Lahaul And Spiti': 12, 'Mandi': 12, 'Shimla': 12, 'Sirmaur': 12, 'Solan': 12, 'Una': 12, 'Amritsar': 12, 'Bathinda': 12, 'Faridkot': 12, 'Fatehgarh Sahib': 12, 'Ferozepur': 12, 'Gurdaspur': 12, 'Hoshiarpur': 12, 'Jalandhar': 12, 'Kapurthala': 12, 'Ludhiana': 12, 'Mansa': 12, 'Moga': 12, 'Sri Muktsar Sahib': 12}",
+      "5 demo districts at up to 90 QPs each",
+      "45 further districts at up to 12 QPs each",
+      "990 unique (district, qp_code, centre) rows, all synthetic=true",
+      "Deterministically generated — re-running produces a byte-identical snapshot."
+    ],
+    "pipeline": "05_seed_district_supply",
+    "rows": 990,
+    "source_name": "05_seed_district_supply",
+    "source_url": "synthetic (no real district x QP supply dataset is published)",
+    "source_version": "4ea0d68e7d4fd206",
+    "synthetic": true,
+    "verification_note": null,
+    "verification_status": "unverified"
+  },
+  "records": [
+    {
+      "centre_name": "Anantnag ITI",
+      "district_code": "010001",
+      "qp_code": "AA/Q04186",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag Rural Self Employment Training Institute",
+      "district_code": "010001",
+      "qp_code": "CP/Q05380",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Anantnag",
+      "district_code": "010001",
+      "qp_code": "EL/Q04839",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag ITI",
+      "district_code": "010001",
+      "qp_code": "EL/Q04921",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag ITI",
+      "district_code": "010001",
+      "qp_code": "HC/Q03850",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag ITI",
+      "district_code": "010001",
+      "qp_code": "IT/Q03519",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag District Skill Centre",
+      "district_code": "010001",
+      "qp_code": "ME/Q05221",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag District Skill Centre",
+      "district_code": "010001",
+      "qp_code": "PD/Q02492",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Anantnag",
+      "district_code": "010001",
+      "qp_code": "RI/Q05368",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag Women's Skill Hub",
+      "district_code": "010001",
+      "qp_code": "TH/Q02006",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag District Skill Centre",
+      "district_code": "010001",
+      "qp_code": "TH/Q02454",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag District Skill Centre",
+      "district_code": "010001",
+      "qp_code": "TL/Q04070",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Budgam",
+      "district_code": "010002",
+      "qp_code": "AU/Q02964",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Budgam",
+      "district_code": "010002",
+      "qp_code": "CO/Q03949",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Budgam Rural Self Employment Training Institute",
+      "district_code": "010002",
+      "qp_code": "EH/Q03984",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Budgam",
+      "district_code": "010002",
+      "qp_code": "HY/Q02523",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Budgam Rural Self Employment Training Institute",
+      "district_code": "010002",
+      "qp_code": "IT/Q03649",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Budgam Rural Self Employment Training Institute",
+      "district_code": "010002",
+      "qp_code": "IT/Q05237",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Budgam",
+      "district_code": "010002",
+      "qp_code": "IT/Q05239",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Budgam",
+      "district_code": "010002",
+      "qp_code": "LS/Q01268",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Budgam",
+      "district_code": "010002",
+      "qp_code": "LS/Q03400",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Budgam District Skill Centre",
+      "district_code": "010002",
+      "qp_code": "TH/Q02445",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Budgam District Skill Centre",
+      "district_code": "010002",
+      "qp_code": "TLW/Q04763",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Budgam",
+      "district_code": "010002",
+      "qp_code": "US/Q01354",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Baramulla",
+      "district_code": "010003",
+      "qp_code": "AA/Q04191",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla ITI",
+      "district_code": "010003",
+      "qp_code": "CG/Q01032",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Baramulla",
+      "district_code": "010003",
+      "qp_code": "CP/Q05380",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla ITI",
+      "district_code": "010003",
+      "qp_code": "EH/Q03968",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Baramulla",
+      "district_code": "010003",
+      "qp_code": "EH/Q05197",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla Women's Skill Hub",
+      "district_code": "010003",
+      "qp_code": "ES/Q01752",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla Rural Self Employment Training Institute",
+      "district_code": "010003",
+      "qp_code": "GJ/Q05039",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla Women's Skill Hub",
+      "district_code": "010003",
+      "qp_code": "IS/Q04740",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla ITI",
+      "district_code": "010003",
+      "qp_code": "IS/Q05430",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla District Skill Centre",
+      "district_code": "010003",
+      "qp_code": "OR/Q02733",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla Rural Self Employment Training Institute",
+      "district_code": "010003",
+      "qp_code": "PW/Q05279",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla Rural Self Employment Training Institute",
+      "district_code": "010003",
+      "qp_code": "PWD/Q01593",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Doda Rural Self Employment Training Institute",
+      "district_code": "010004",
+      "qp_code": "AA/Q03902",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Doda",
+      "district_code": "010004",
+      "qp_code": "AP/Q05294",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Doda",
+      "district_code": "010004",
+      "qp_code": "CG/Q01033",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Doda",
+      "district_code": "010004",
+      "qp_code": "CG/Q05274",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Doda Women's Skill Hub",
+      "district_code": "010004",
+      "qp_code": "EL/Q04853",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Doda",
+      "district_code": "010004",
+      "qp_code": "ES/Q02633",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Doda Women's Skill Hub",
+      "district_code": "010004",
+      "qp_code": "HC/Q04017",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Doda",
+      "district_code": "010004",
+      "qp_code": "HC/Q05080",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Doda Women's Skill Hub",
+      "district_code": "010004",
+      "qp_code": "HY/Q01369",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Doda",
+      "district_code": "010004",
+      "qp_code": "RI/Q05451",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Doda Women's Skill Hub",
+      "district_code": "010004",
+      "qp_code": "TH/Q02463",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Doda Women's Skill Hub",
+      "district_code": "010004",
+      "qp_code": "TX/Q01928",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu ITI",
+      "district_code": "010005",
+      "qp_code": "AP/Q01870",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu Women's Skill Hub",
+      "district_code": "010005",
+      "qp_code": "BW/Q05219",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Jammu",
+      "district_code": "010005",
+      "qp_code": "CG/Q05930",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Jammu",
+      "district_code": "010005",
+      "qp_code": "CG/Q05933",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu District Skill Centre",
+      "district_code": "010005",
+      "qp_code": "HE/Q03621",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu Rural Self Employment Training Institute",
+      "district_code": "010005",
+      "qp_code": "IS/Q05425",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Jammu",
+      "district_code": "010005",
+      "qp_code": "LS/Q04865",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu ITI",
+      "district_code": "010005",
+      "qp_code": "OA/Q02520",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu ITI",
+      "district_code": "010005",
+      "qp_code": "PD/Q02501",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Jammu",
+      "district_code": "010005",
+      "qp_code": "TH/Q02006",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Jammu",
+      "district_code": "010005",
+      "qp_code": "TW/Q02476",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Jammu",
+      "district_code": "010005",
+      "qp_code": "TX/Q01943",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua ITI",
+      "district_code": "010007",
+      "qp_code": "AA/Q04190",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua Women's Skill Hub",
+      "district_code": "010007",
+      "qp_code": "AG/Q05107",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kathua",
+      "district_code": "010007",
+      "qp_code": "AP/Q01866",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua District Skill Centre",
+      "district_code": "010007",
+      "qp_code": "AS/Q04903",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua ITI",
+      "district_code": "010007",
+      "qp_code": "HE/Q02090",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua Rural Self Employment Training Institute",
+      "district_code": "010007",
+      "qp_code": "IN/Q05286",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kathua",
+      "district_code": "010007",
+      "qp_code": "MG/Q05297",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua Women's Skill Hub",
+      "district_code": "010007",
+      "qp_code": "OA/Q04025",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua District Skill Centre",
+      "district_code": "010007",
+      "qp_code": "OR/Q03322",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua ITI",
+      "district_code": "010007",
+      "qp_code": "TL/Q04069",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua ITI",
+      "district_code": "010007",
+      "qp_code": "TW/Q02623",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua Rural Self Employment Training Institute",
+      "district_code": "010007",
+      "qp_code": "TX/Q05155",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Women's Skill Hub",
+      "district_code": "010008",
+      "qp_code": "AP/Q03283",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Women's Skill Hub",
+      "district_code": "010008",
+      "qp_code": "CH/Q04954",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kupwara",
+      "district_code": "010008",
+      "qp_code": "DW/Q03626",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Women's Skill Hub",
+      "district_code": "010008",
+      "qp_code": "EH/Q03422",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara District Skill Centre",
+      "district_code": "010008",
+      "qp_code": "HC/Q03850",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara District Skill Centre",
+      "district_code": "010008",
+      "qp_code": "HC/Q04882",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Rural Self Employment Training Institute",
+      "district_code": "010008",
+      "qp_code": "HY/Q02248",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Rural Self Employment Training Institute",
+      "district_code": "010008",
+      "qp_code": "M/Q05117",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Women's Skill Hub",
+      "district_code": "010008",
+      "qp_code": "PD/Q00156",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Rural Self Employment Training Institute",
+      "district_code": "010008",
+      "qp_code": "PS/Q00996",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kupwara",
+      "district_code": "010008",
+      "qp_code": "TH/Q02010",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Women's Skill Hub",
+      "district_code": "010008",
+      "qp_code": "TX/Q04098",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Poonch",
+      "district_code": "010010",
+      "qp_code": "AG/Q04286",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Poonch",
+      "district_code": "010010",
+      "qp_code": "AP/Q03279",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch Rural Self Employment Training Institute",
+      "district_code": "010010",
+      "qp_code": "EL/Q04860",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch ITI",
+      "district_code": "010010",
+      "qp_code": "FI/Q03332",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Poonch",
+      "district_code": "010010",
+      "qp_code": "GJ/Q04715",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch Rural Self Employment Training Institute",
+      "district_code": "010010",
+      "qp_code": "HC/Q05168",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Poonch",
+      "district_code": "010010",
+      "qp_code": "IT/QITeS",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Poonch",
+      "district_code": "010010",
+      "qp_code": "MG/Q06060",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch Rural Self Employment Training Institute",
+      "district_code": "010010",
+      "qp_code": "OA/Q04026",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch Rural Self Employment Training Institute",
+      "district_code": "010010",
+      "qp_code": "PD/Q02487",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch Women's Skill Hub",
+      "district_code": "010010",
+      "qp_code": "TH/Q02454",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch District Skill Centre",
+      "district_code": "010010",
+      "qp_code": "TW/Q01357",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama ITI",
+      "district_code": "010011",
+      "qp_code": "AP/Q05295",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama Women's Skill Hub",
+      "district_code": "010011",
+      "qp_code": "CG/Q01032",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama ITI",
+      "district_code": "010011",
+      "qp_code": "CH/Q04632",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Pulwama",
+      "district_code": "010011",
+      "qp_code": "HC/Q03850",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama Women's Skill Hub",
+      "district_code": "010011",
+      "qp_code": "IT/Q03525",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama District Skill Centre",
+      "district_code": "010011",
+      "qp_code": "LS/Q01273",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama Rural Self Employment Training Institute",
+      "district_code": "010011",
+      "qp_code": "LS/Q03410",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Pulwama",
+      "district_code": "010011",
+      "qp_code": "PD/Q04979",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama ITI",
+      "district_code": "010011",
+      "qp_code": "RI/Q05353",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama Women's Skill Hub",
+      "district_code": "010011",
+      "qp_code": "RI/Q05451",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama Rural Self Employment Training Institute",
+      "district_code": "010011",
+      "qp_code": "TH/Q00131",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Pulwama",
+      "district_code": "010011",
+      "qp_code": "TH/Q02936",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Rajouri",
+      "district_code": "010012",
+      "qp_code": "AA/Q04185",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri District Skill Centre",
+      "district_code": "010012",
+      "qp_code": "AP/Q03280",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri Rural Self Employment Training Institute",
+      "district_code": "010012",
+      "qp_code": "CG/Q05076",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri ITI",
+      "district_code": "010012",
+      "qp_code": "CO/Q03956",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Rajouri",
+      "district_code": "010012",
+      "qp_code": "EH/Q03602",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri District Skill Centre",
+      "district_code": "010012",
+      "qp_code": "EH/Q03974",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri ITI",
+      "district_code": "010012",
+      "qp_code": "ES/Q01756",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Rajouri",
+      "district_code": "010012",
+      "qp_code": "ES/Q02630",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Rajouri",
+      "district_code": "010012",
+      "qp_code": "HC/Q02553",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri ITI",
+      "district_code": "010012",
+      "qp_code": "HC/Q05172",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri District Skill Centre",
+      "district_code": "010012",
+      "qp_code": "LS/Q04865",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri Women's Skill Hub",
+      "district_code": "010012",
+      "qp_code": "SPL/Q04937",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar District Skill Centre",
+      "district_code": "010013",
+      "qp_code": "AG/Q02836",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Rural Self Employment Training Institute",
+      "district_code": "010013",
+      "qp_code": "AG/Q04972",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Rural Self Employment Training Institute",
+      "district_code": "010013",
+      "qp_code": "EL/Q04858",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Srinagar",
+      "district_code": "010013",
+      "qp_code": "GJ/Q04737",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Srinagar",
+      "district_code": "010013",
+      "qp_code": "HE/Q04230",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Rural Self Employment Training Institute",
+      "district_code": "010013",
+      "qp_code": "IT/Q03648",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Women's Skill Hub",
+      "district_code": "010013",
+      "qp_code": "IT/Q05242",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Rural Self Employment Training Institute",
+      "district_code": "010013",
+      "qp_code": "LS/Q03407",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Women's Skill Hub",
+      "district_code": "010013",
+      "qp_code": "PD/Q04976",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Rural Self Employment Training Institute",
+      "district_code": "010013",
+      "qp_code": "TH/Q02966",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Women's Skill Hub",
+      "district_code": "010013",
+      "qp_code": "TH/Q03301",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Srinagar",
+      "district_code": "010013",
+      "qp_code": "TW/Q02191",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur Rural Self Employment Training Institute",
+      "district_code": "010014",
+      "qp_code": "AA/Q04191",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur Women's Skill Hub",
+      "district_code": "010014",
+      "qp_code": "BW/Q02861",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Udhampur",
+      "district_code": "010014",
+      "qp_code": "CO/Q03517",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur District Skill Centre",
+      "district_code": "010014",
+      "qp_code": "EH/Q05309",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur Rural Self Employment Training Institute",
+      "district_code": "010014",
+      "qp_code": "ES/Q04259",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur District Skill Centre",
+      "district_code": "010014",
+      "qp_code": "GJ/Q05065",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur Rural Self Employment Training Institute",
+      "district_code": "010014",
+      "qp_code": "HC/Q04018",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur Women's Skill Hub",
+      "district_code": "010014",
+      "qp_code": "IT/Q03521",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur District Skill Centre",
+      "district_code": "010014",
+      "qp_code": "IT/Q05240",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Udhampur",
+      "district_code": "010014",
+      "qp_code": "PWD/Q01594",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Udhampur",
+      "district_code": "010014",
+      "qp_code": "TL/Q01994",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Udhampur",
+      "district_code": "010014",
+      "qp_code": "WC/Q02328",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar District Skill Centre",
+      "district_code": "010620",
+      "qp_code": "BW/Q04945",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar District Skill Centre",
+      "district_code": "010620",
+      "qp_code": "CO/Q05398",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar ITI",
+      "district_code": "010620",
+      "qp_code": "CP/Q05390",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kishtwar",
+      "district_code": "010620",
+      "qp_code": "EH/Q02859",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kishtwar",
+      "district_code": "010620",
+      "qp_code": "ES/Q02627",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar District Skill Centre",
+      "district_code": "010620",
+      "qp_code": "HC/Q03612",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar Rural Self Employment Training Institute",
+      "district_code": "010620",
+      "qp_code": "HE/Q05345",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kishtwar",
+      "district_code": "010620",
+      "qp_code": "HY/Q02620",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar Rural Self Employment Training Institute",
+      "district_code": "010620",
+      "qp_code": "HY/Q02621",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kishtwar",
+      "district_code": "010620",
+      "qp_code": "IS/Q04697",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar Rural Self Employment Training Institute",
+      "district_code": "010620",
+      "qp_code": "TLW/Q04623",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar ITI",
+      "district_code": "010620",
+      "qp_code": "TX/Q01927",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban ITI",
+      "district_code": "010621",
+      "qp_code": "BFSI/Q04887",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ramban",
+      "district_code": "010621",
+      "qp_code": "BW/Q04315",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Ramban",
+      "district_code": "010621",
+      "qp_code": "BW/Q04945",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ramban",
+      "district_code": "010621",
+      "qp_code": "EL/Q04847",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban Rural Self Employment Training Institute",
+      "district_code": "010621",
+      "qp_code": "HC/Q05174",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban Rural Self Employment Training Institute",
+      "district_code": "010621",
+      "qp_code": "HM/Q05063",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban Rural Self Employment Training Institute",
+      "district_code": "010621",
+      "qp_code": "OA/Q04241",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban Rural Self Employment Training Institute",
+      "district_code": "010621",
+      "qp_code": "OR/Q02434",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ramban",
+      "district_code": "010621",
+      "qp_code": "PD/Q00400",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Ramban",
+      "district_code": "010621",
+      "qp_code": "RI/Q05375",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban Rural Self Employment Training Institute",
+      "district_code": "010621",
+      "qp_code": "TLW/Q04765",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban District Skill Centre",
+      "district_code": "010621",
+      "qp_code": "WC/Q04942",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam District Skill Centre",
+      "district_code": "010622",
+      "qp_code": "AP/Q03284",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam ITI",
+      "district_code": "010622",
+      "qp_code": "CG/Q01029",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam ITI",
+      "district_code": "010622",
+      "qp_code": "EH/Q05202",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kulgam",
+      "district_code": "010622",
+      "qp_code": "ET/Q01981",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kulgam",
+      "district_code": "010622",
+      "qp_code": "HC/Q03852",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kulgam",
+      "district_code": "010622",
+      "qp_code": "HC/Q05172",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam Rural Self Employment Training Institute",
+      "district_code": "010622",
+      "qp_code": "PD/Q04748",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam ITI",
+      "district_code": "010622",
+      "qp_code": "PL/Q03704",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam Women's Skill Hub",
+      "district_code": "010622",
+      "qp_code": "TL/Q02957",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam Rural Self Employment Training Institute",
+      "district_code": "010622",
+      "qp_code": "TLW/Q04763",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam Women's Skill Hub",
+      "district_code": "010622",
+      "qp_code": "TX/Q01921",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kulgam",
+      "district_code": "010622",
+      "qp_code": "TX/Q01938",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora Women's Skill Hub",
+      "district_code": "010623",
+      "qp_code": "AG/Q04289",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora Rural Self Employment Training Institute",
+      "district_code": "010623",
+      "qp_code": "BW/Q00734",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora Women's Skill Hub",
+      "district_code": "010623",
+      "qp_code": "BW/Q04948",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Bandipora",
+      "district_code": "010623",
+      "qp_code": "CG/Q01974",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Bandipora",
+      "district_code": "010623",
+      "qp_code": "CH/Q04632",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora ITI",
+      "district_code": "010623",
+      "qp_code": "EH/Q02706",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Bandipora",
+      "district_code": "010623",
+      "qp_code": "ES/Q01397",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora Rural Self Employment Training Institute",
+      "district_code": "010623",
+      "qp_code": "ES/Q02028",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Bandipora",
+      "district_code": "010623",
+      "qp_code": "IT/Q03644",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora Rural Self Employment Training Institute",
+      "district_code": "010623",
+      "qp_code": "IT/Q05240",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Bandipora",
+      "district_code": "010623",
+      "qp_code": "OR/Q02434",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora District Skill Centre",
+      "district_code": "010623",
+      "qp_code": "TX/Q01941",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba ITI",
+      "district_code": "010624",
+      "qp_code": "AG/Q04286",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba Rural Self Employment Training Institute",
+      "district_code": "010624",
+      "qp_code": "AG/Q05159",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba Rural Self Employment Training Institute",
+      "district_code": "010624",
+      "qp_code": "CG/Q01810",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba ITI",
+      "district_code": "010624",
+      "qp_code": "ES/Q02627",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba ITI",
+      "district_code": "010624",
+      "qp_code": "HC/Q05165",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Samba",
+      "district_code": "010624",
+      "qp_code": "IS/Q05422",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Samba",
+      "district_code": "010624",
+      "qp_code": "IT/Q05328",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba Rural Self Employment Training Institute",
+      "district_code": "010624",
+      "qp_code": "PWD/Q01632",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba District Skill Centre",
+      "district_code": "010624",
+      "qp_code": "TH/Q02459",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba Rural Self Employment Training Institute",
+      "district_code": "010624",
+      "qp_code": "TW/Q02194",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Samba",
+      "district_code": "010624",
+      "qp_code": "TW/Q02623",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba ITI",
+      "district_code": "010624",
+      "qp_code": "TX/Q03439",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian Women's Skill Hub",
+      "district_code": "010625",
+      "qp_code": "AU/Q05457",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian District Skill Centre",
+      "district_code": "010625",
+      "qp_code": "CG/Q05077",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian Women's Skill Hub",
+      "district_code": "010625",
+      "qp_code": "CO/Q03364",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian Rural Self Employment Training Institute",
+      "district_code": "010625",
+      "qp_code": "CO/Q03965",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian ITI",
+      "district_code": "010625",
+      "qp_code": "EH/Q03971",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Shopian",
+      "district_code": "010625",
+      "qp_code": "EH/Q05362",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian District Skill Centre",
+      "district_code": "010625",
+      "qp_code": "EL/Q04855",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian Rural Self Employment Training Institute",
+      "district_code": "010625",
+      "qp_code": "ES/Q01754",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian District Skill Centre",
+      "district_code": "010625",
+      "qp_code": "HC/Q03262",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian Women's Skill Hub",
+      "district_code": "010625",
+      "qp_code": "HC/Q05097",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Shopian",
+      "district_code": "010625",
+      "qp_code": "LS/Q05262",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Shopian",
+      "district_code": "010625",
+      "qp_code": "PD/Q02218",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Ganderbal",
+      "district_code": "010626",
+      "qp_code": "AP/Q03282",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal District Skill Centre",
+      "district_code": "010626",
+      "qp_code": "AP/Q03575",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal Women's Skill Hub",
+      "district_code": "010626",
+      "qp_code": "HC/Q03292",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal ITI",
+      "district_code": "010626",
+      "qp_code": "HY/Q01367",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal District Skill Centre",
+      "district_code": "010626",
+      "qp_code": "IT/Q05241",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal Rural Self Employment Training Institute",
+      "district_code": "010626",
+      "qp_code": "LS/Q01270",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal ITI",
+      "district_code": "010626",
+      "qp_code": "LS/Q05101",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal Women's Skill Hub",
+      "district_code": "010626",
+      "qp_code": "OR/Q02733",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal ITI",
+      "district_code": "010626",
+      "qp_code": "PD/Q04748",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ganderbal",
+      "district_code": "010626",
+      "qp_code": "RI/Q05448",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Ganderbal",
+      "district_code": "010626",
+      "qp_code": "TL/Q04069",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal Rural Self Employment Training Institute",
+      "district_code": "010626",
+      "qp_code": "US/Q01353",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi Rural Self Employment Training Institute",
+      "district_code": "010627",
+      "qp_code": "AG/Q04288",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi ITI",
+      "district_code": "010627",
+      "qp_code": "CG/Q01976",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi Rural Self Employment Training Institute",
+      "district_code": "010627",
+      "qp_code": "CG/Q01977",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi District Skill Centre",
+      "district_code": "010627",
+      "qp_code": "CO/Q03959",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi ITI",
+      "district_code": "010627",
+      "qp_code": "IN/Q05093",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Reasi",
+      "district_code": "010627",
+      "qp_code": "IT/Q05331",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi Women's Skill Hub",
+      "district_code": "010627",
+      "qp_code": "PL/Q03705",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Reasi",
+      "district_code": "010627",
+      "qp_code": "TW/Q03515",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Reasi",
+      "district_code": "010627",
+      "qp_code": "TX/Q01925",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi Women's Skill Hub",
+      "district_code": "010627",
+      "qp_code": "TX/Q03437",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi District Skill Centre",
+      "district_code": "010627",
+      "qp_code": "WC/Q01790",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Reasi",
+      "district_code": "010627",
+      "qp_code": "WC/Q04942",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur ITI",
+      "district_code": "020015",
+      "qp_code": "AP/Q01871",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur District Skill Centre",
+      "district_code": "020015",
+      "qp_code": "CO/Q02089",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur District Skill Centre",
+      "district_code": "020015",
+      "qp_code": "CP/Q05382",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur ITI",
+      "district_code": "020015",
+      "qp_code": "ES/Q02632",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur District Skill Centre",
+      "district_code": "020015",
+      "qp_code": "HC/Q03859",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Bilaspur",
+      "district_code": "020015",
+      "qp_code": "HE/Q01020",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur Rural Self Employment Training Institute",
+      "district_code": "020015",
+      "qp_code": "IT/Q01257",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur District Skill Centre",
+      "district_code": "020015",
+      "qp_code": "IT/Q03646",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Bilaspur",
+      "district_code": "020015",
+      "qp_code": "MG/Q05405",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur Rural Self Employment Training Institute",
+      "district_code": "020015",
+      "qp_code": "PD/Q05343",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur ITI",
+      "district_code": "020015",
+      "qp_code": "TH/Q02936",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur District Skill Centre",
+      "district_code": "020015",
+      "qp_code": "TL/Q05355",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba District Skill Centre",
+      "district_code": "020016",
+      "qp_code": "AM/Q05051",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba District Skill Centre",
+      "district_code": "020016",
+      "qp_code": "CG/Q05076",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Chamba",
+      "district_code": "020016",
+      "qp_code": "EH/Q03967",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Chamba",
+      "district_code": "020016",
+      "qp_code": "HC/Q05171",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba Rural Self Employment Training Institute",
+      "district_code": "020016",
+      "qp_code": "HM/Q04529",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Chamba",
+      "district_code": "020016",
+      "qp_code": "IS/Q05433",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba District Skill Centre",
+      "district_code": "020016",
+      "qp_code": "IT/Q05332",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba Women's Skill Hub",
+      "district_code": "020016",
+      "qp_code": "M/Q05117",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba Rural Self Employment Training Institute",
+      "district_code": "020016",
+      "qp_code": "PWD/Q01594",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Chamba",
+      "district_code": "020016",
+      "qp_code": "RI/Q05447",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba ITI",
+      "district_code": "020016",
+      "qp_code": "TH/Q02016",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba ITI",
+      "district_code": "020016",
+      "qp_code": "TX/Q04102",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur Women's Skill Hub",
+      "district_code": "020017",
+      "qp_code": "AP/Q05218",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur ITI",
+      "district_code": "020017",
+      "qp_code": "BW/Q02861",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur District Skill Centre",
+      "district_code": "020017",
+      "qp_code": "CG/Q00620",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur ITI",
+      "district_code": "020017",
+      "qp_code": "CG/Q05930",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur Rural Self Employment Training Institute",
+      "district_code": "020017",
+      "qp_code": "EH/Q02597",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur Rural Self Employment Training Institute",
+      "district_code": "020017",
+      "qp_code": "EH/Q04208",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur ITI",
+      "district_code": "020017",
+      "qp_code": "EL/Q04837",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hamirpur",
+      "district_code": "020017",
+      "qp_code": "HE/Q03767",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur ITI",
+      "district_code": "020017",
+      "qp_code": "MG/Q05297",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Hamirpur",
+      "district_code": "020017",
+      "qp_code": "TH/Q02002",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hamirpur",
+      "district_code": "020017",
+      "qp_code": "TL/Q05354",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Hamirpur",
+      "district_code": "020017",
+      "qp_code": "TX/Q01934",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra Women's Skill Hub",
+      "district_code": "020018",
+      "qp_code": "AG/Q04289",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kangra",
+      "district_code": "020018",
+      "qp_code": "AP/Q01871",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kangra",
+      "district_code": "020018",
+      "qp_code": "CG/Q00620",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kangra",
+      "district_code": "020018",
+      "qp_code": "CG/Q05927",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra District Skill Centre",
+      "district_code": "020018",
+      "qp_code": "EH/Q02802",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra Women's Skill Hub",
+      "district_code": "020018",
+      "qp_code": "HC/Q04013",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra Women's Skill Hub",
+      "district_code": "020018",
+      "qp_code": "HE/Q03295",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra Rural Self Employment Training Institute",
+      "district_code": "020018",
+      "qp_code": "HY/Q02188",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra Women's Skill Hub",
+      "district_code": "020018",
+      "qp_code": "IS/Q04726",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra Rural Self Employment Training Institute",
+      "district_code": "020018",
+      "qp_code": "PD/Q02487",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra District Skill Centre",
+      "district_code": "020018",
+      "qp_code": "TH/Q02552",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra District Skill Centre",
+      "district_code": "020018",
+      "qp_code": "WC/Q00763",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur District Skill Centre",
+      "district_code": "020019",
+      "qp_code": "AA/Q03901",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kinnaur",
+      "district_code": "020019",
+      "qp_code": "CG/Q03939",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kinnaur",
+      "district_code": "020019",
+      "qp_code": "EH/Q03421",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kinnaur",
+      "district_code": "020019",
+      "qp_code": "GJ/Q05301",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kinnaur",
+      "district_code": "020019",
+      "qp_code": "HY/Q01367",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur ITI",
+      "district_code": "020019",
+      "qp_code": "IS/Q04700",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur Women's Skill Hub",
+      "district_code": "020019",
+      "qp_code": "IS/Q05418",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur District Skill Centre",
+      "district_code": "020019",
+      "qp_code": "PD/Q02218",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur District Skill Centre",
+      "district_code": "020019",
+      "qp_code": "TL/Q05356",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur District Skill Centre",
+      "district_code": "020019",
+      "qp_code": "TX/Q01942",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur Rural Self Employment Training Institute",
+      "district_code": "020019",
+      "qp_code": "TX/Q01944",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur ITI",
+      "district_code": "020019",
+      "qp_code": "TX/Q01950",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu ITI",
+      "district_code": "020020",
+      "qp_code": "AA/Q04190",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Women's Skill Hub",
+      "district_code": "020020",
+      "qp_code": "AP/Q03278",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Rural Self Employment Training Institute",
+      "district_code": "020020",
+      "qp_code": "BFSI/Q04712",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kullu",
+      "district_code": "020020",
+      "qp_code": "CO/Q02084",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Rural Self Employment Training Institute",
+      "district_code": "020020",
+      "qp_code": "EH/Q02595",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Women's Skill Hub",
+      "district_code": "020020",
+      "qp_code": "EH/Q05200",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Rural Self Employment Training Institute",
+      "district_code": "020020",
+      "qp_code": "HY/Q02524",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Rural Self Employment Training Institute",
+      "district_code": "020020",
+      "qp_code": "HY/Q02670",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Women's Skill Hub",
+      "district_code": "020020",
+      "qp_code": "HY/Q04019",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kullu",
+      "district_code": "020020",
+      "qp_code": "IS/Q05422",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu ITI",
+      "district_code": "020020",
+      "qp_code": "IT/Q05325",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Rural Self Employment Training Institute",
+      "district_code": "020020",
+      "qp_code": "TH/Q02936",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti ITI",
+      "district_code": "020021",
+      "qp_code": "AM/Q04905",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Lahaul And Spiti",
+      "district_code": "020021",
+      "qp_code": "BW/Q02858",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti District Skill Centre",
+      "district_code": "020021",
+      "qp_code": "CG/Q05076",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti District Skill Centre",
+      "district_code": "020021",
+      "qp_code": "EH/Q00991",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti ITI",
+      "district_code": "020021",
+      "qp_code": "ES/Q02633",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Lahaul And Spiti",
+      "district_code": "020021",
+      "qp_code": "GJ/Q04715",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti Rural Self Employment Training Institute",
+      "district_code": "020021",
+      "qp_code": "HC/Q04927",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti Rural Self Employment Training Institute",
+      "district_code": "020021",
+      "qp_code": "IT/Q01983",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Lahaul And Spiti",
+      "district_code": "020021",
+      "qp_code": "OR/Q02433",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti ITI",
+      "district_code": "020021",
+      "qp_code": "PD/Q02492",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti ITI",
+      "district_code": "020021",
+      "qp_code": "TX/Q04103",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti Women's Skill Hub",
+      "district_code": "020021",
+      "qp_code": "US/Q01025",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Mandi",
+      "district_code": "020022",
+      "qp_code": "AP/Q03425",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi District Skill Centre",
+      "district_code": "020022",
+      "qp_code": "AP/Q03576",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi District Skill Centre",
+      "district_code": "020022",
+      "qp_code": "AU/Q05270",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi District Skill Centre",
+      "district_code": "020022",
+      "qp_code": "CG/Q05076",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Mandi",
+      "district_code": "020022",
+      "qp_code": "ES/Q04259",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi Women's Skill Hub",
+      "district_code": "020022",
+      "qp_code": "IT/Q05236",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Mandi",
+      "district_code": "020022",
+      "qp_code": "OA/Q04025",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi Rural Self Employment Training Institute",
+      "district_code": "020022",
+      "qp_code": "RI/Q05370",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi Rural Self Employment Training Institute",
+      "district_code": "020022",
+      "qp_code": "TW/Q03310",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi Women's Skill Hub",
+      "district_code": "020022",
+      "qp_code": "TX/Q01933",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi District Skill Centre",
+      "district_code": "020022",
+      "qp_code": "TX/Q01943",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Mandi",
+      "district_code": "020022",
+      "qp_code": "WS/Q02939",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla District Skill Centre",
+      "district_code": "020023",
+      "qp_code": "AP/Q01870",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla Rural Self Employment Training Institute",
+      "district_code": "020023",
+      "qp_code": "CG/Q01038",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla Women's Skill Hub",
+      "district_code": "020023",
+      "qp_code": "CH/Q04749",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Shimla",
+      "district_code": "020023",
+      "qp_code": "EH/Q00993",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla District Skill Centre",
+      "district_code": "020023",
+      "qp_code": "EH/Q02776",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Shimla",
+      "district_code": "020023",
+      "qp_code": "EL/Q04921",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Shimla",
+      "district_code": "020023",
+      "qp_code": "ES/Q02027",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Shimla",
+      "district_code": "020023",
+      "qp_code": "IS/Q05432",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla District Skill Centre",
+      "district_code": "020023",
+      "qp_code": "IT/QITeS",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla ITI",
+      "district_code": "020023",
+      "qp_code": "PD/Q00895",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla ITI",
+      "district_code": "020023",
+      "qp_code": "TH/Q02023",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla Rural Self Employment Training Institute",
+      "district_code": "020023",
+      "qp_code": "TX/Q03259",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur Rural Self Employment Training Institute",
+      "district_code": "020024",
+      "qp_code": "AM/Q05052",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur Women's Skill Hub",
+      "district_code": "020024",
+      "qp_code": "CP/Q05390",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur Women's Skill Hub",
+      "district_code": "020024",
+      "qp_code": "ETR/Q05134",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur Women's Skill Hub",
+      "district_code": "020024",
+      "qp_code": "GJ/Q05085",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur District Skill Centre",
+      "district_code": "020024",
+      "qp_code": "HE/Q05333",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur ITI",
+      "district_code": "020024",
+      "qp_code": "HY/Q02959",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Sirmaur",
+      "district_code": "020024",
+      "qp_code": "IS/Q05092",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Sirmaur",
+      "district_code": "020024",
+      "qp_code": "OR/Q02875",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Sirmaur",
+      "district_code": "020024",
+      "qp_code": "PD/Q00402",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur ITI",
+      "district_code": "020024",
+      "qp_code": "PWD/Q01597",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur District Skill Centre",
+      "district_code": "020024",
+      "qp_code": "TL/Q02957",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Sirmaur",
+      "district_code": "020024",
+      "qp_code": "WC/Q02328",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan Rural Self Employment Training Institute",
+      "district_code": "020025",
+      "qp_code": "AA/Q04187",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Solan",
+      "district_code": "020025",
+      "qp_code": "AG/Q04959",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan District Skill Centre",
+      "district_code": "020025",
+      "qp_code": "CG/Q05076",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Solan",
+      "district_code": "020025",
+      "qp_code": "EH/Q03969",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan Women's Skill Hub",
+      "district_code": "020025",
+      "qp_code": "EL/Q04840",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan District Skill Centre",
+      "district_code": "020025",
+      "qp_code": "ES/Q04260",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan Rural Self Employment Training Institute",
+      "district_code": "020025",
+      "qp_code": "HC/Q05094",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan Rural Self Employment Training Institute",
+      "district_code": "020025",
+      "qp_code": "LS/Q01273",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan District Skill Centre",
+      "district_code": "020025",
+      "qp_code": "PD/Q02200",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Solan",
+      "district_code": "020025",
+      "qp_code": "RI/Q05451",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan District Skill Centre",
+      "district_code": "020025",
+      "qp_code": "SP/Q02950",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan Rural Self Employment Training Institute",
+      "district_code": "020025",
+      "qp_code": "TW/Q01356",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Una",
+      "district_code": "020026",
+      "qp_code": "CG/Q05932",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Una District Skill Centre",
+      "district_code": "020026",
+      "qp_code": "CO/Q02086",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Una ITI",
+      "district_code": "020026",
+      "qp_code": "EH/Q05454",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Una Women's Skill Hub",
+      "district_code": "020026",
+      "qp_code": "HC/Q03858",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Una Women's Skill Hub",
+      "district_code": "020026",
+      "qp_code": "HC/Q04008",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Una",
+      "district_code": "020026",
+      "qp_code": "HY/Q01369",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Una Women's Skill Hub",
+      "district_code": "020026",
+      "qp_code": "HY/Q02619",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Una",
+      "district_code": "020026",
+      "qp_code": "IT/Q05318",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Una",
+      "district_code": "020026",
+      "qp_code": "OA/Q02521",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Una",
+      "district_code": "020026",
+      "qp_code": "PD/Q04990",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Una",
+      "district_code": "020026",
+      "qp_code": "RI/Q05448",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Una ITI",
+      "district_code": "020026",
+      "qp_code": "TW/Q02038",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar ITI",
+      "district_code": "030027",
+      "qp_code": "CO/Q02084",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar Rural Self Employment Training Institute",
+      "district_code": "030027",
+      "qp_code": "CO/Q03362",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar ITI",
+      "district_code": "030027",
+      "qp_code": "EP/Q05298",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar Women's Skill Hub",
+      "district_code": "030027",
+      "qp_code": "HE/Q03622",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar ITI",
+      "district_code": "030027",
+      "qp_code": "IT/Q03644",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar ITI",
+      "district_code": "030027",
+      "qp_code": "IT/Q03645",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar District Skill Centre",
+      "district_code": "030027",
+      "qp_code": "IT/Q03651",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar District Skill Centre",
+      "district_code": "030027",
+      "qp_code": "IT/Q05242",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar ITI",
+      "district_code": "030027",
+      "qp_code": "RI/Q05379",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar Women's Skill Hub",
+      "district_code": "030027",
+      "qp_code": "TX/Q01924",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Amritsar",
+      "district_code": "030027",
+      "qp_code": "TX/Q01933",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar Rural Self Employment Training Institute",
+      "district_code": "030027",
+      "qp_code": "TX/Q01941",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Bathinda",
+      "district_code": "030028",
+      "qp_code": "AA/Q04188",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda District Skill Centre",
+      "district_code": "030028",
+      "qp_code": "BW/Q04948",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda Women's Skill Hub",
+      "district_code": "030028",
+      "qp_code": "CO/Q05288",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda Rural Self Employment Training Institute",
+      "district_code": "030028",
+      "qp_code": "EL/Q04854",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda Rural Self Employment Training Institute",
+      "district_code": "030028",
+      "qp_code": "EL/Q04897",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda Women's Skill Hub",
+      "district_code": "030028",
+      "qp_code": "HC/Q05163",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda District Skill Centre",
+      "district_code": "030028",
+      "qp_code": "HC/Q05179",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda ITI",
+      "district_code": "030028",
+      "qp_code": "PD/Q02519",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda Rural Self Employment Training Institute",
+      "district_code": "030028",
+      "qp_code": "TH/Q02011",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Bathinda",
+      "district_code": "030028",
+      "qp_code": "TH/Q02938",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda Rural Self Employment Training Institute",
+      "district_code": "030028",
+      "qp_code": "TW/Q02190",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda ITI",
+      "district_code": "030028",
+      "qp_code": "TX/Q04111",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot District Skill Centre",
+      "district_code": "030029",
+      "qp_code": "AG/Q03351",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Faridkot",
+      "district_code": "030029",
+      "qp_code": "AG/Q03354",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Faridkot",
+      "district_code": "030029",
+      "qp_code": "BW/Q02096",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot Rural Self Employment Training Institute",
+      "district_code": "030029",
+      "qp_code": "CG/Q02860",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot Rural Self Employment Training Institute",
+      "district_code": "030029",
+      "qp_code": "ES/Q02627",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot ITI",
+      "district_code": "030029",
+      "qp_code": "HY/Q02250",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot Women's Skill Hub",
+      "district_code": "030029",
+      "qp_code": "LEATHER/Q04661",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot Women's Skill Hub",
+      "district_code": "030029",
+      "qp_code": "PD/Q05364",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot Women's Skill Hub",
+      "district_code": "030029",
+      "qp_code": "RI/Q05381",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Faridkot",
+      "district_code": "030029",
+      "qp_code": "RI/Q05447",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot Women's Skill Hub",
+      "district_code": "030029",
+      "qp_code": "TH/Q02462",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot Women's Skill Hub",
+      "district_code": "030029",
+      "qp_code": "TX/Q01932",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib District Skill Centre",
+      "district_code": "030030",
+      "qp_code": "AP/Q03574",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib District Skill Centre",
+      "district_code": "030030",
+      "qp_code": "CG/Q01029",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Fatehgarh Sahib",
+      "district_code": "030030",
+      "qp_code": "CP/Q05387",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib Women's Skill Hub",
+      "district_code": "030030",
+      "qp_code": "GJ/Q05302",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib Women's Skill Hub",
+      "district_code": "030030",
+      "qp_code": "HY/Q01367",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib Rural Self Employment Training Institute",
+      "district_code": "030030",
+      "qp_code": "M/Q04907",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib Women's Skill Hub",
+      "district_code": "030030",
+      "qp_code": "OA/Q02869",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Fatehgarh Sahib",
+      "district_code": "030030",
+      "qp_code": "PD/Q00894",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib ITI",
+      "district_code": "030030",
+      "qp_code": "TH/Q02022",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib District Skill Centre",
+      "district_code": "030030",
+      "qp_code": "TW/Q02475",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib Rural Self Employment Training Institute",
+      "district_code": "030030",
+      "qp_code": "TW/Q02476",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib ITI",
+      "district_code": "030030",
+      "qp_code": "TW/Q03632",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ferozepur",
+      "district_code": "030031",
+      "qp_code": "AA/Q04189",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ferozepur",
+      "district_code": "030031",
+      "qp_code": "HM/Q04529",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur ITI",
+      "district_code": "030031",
+      "qp_code": "IS/Q05092",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur Women's Skill Hub",
+      "district_code": "030031",
+      "qp_code": "IT/Q03526",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur ITI",
+      "district_code": "030031",
+      "qp_code": "OA/Q04023",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur Rural Self Employment Training Institute",
+      "district_code": "030031",
+      "qp_code": "OR/Q05033",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur District Skill Centre",
+      "district_code": "030031",
+      "qp_code": "PD/Q02499",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ferozepur",
+      "district_code": "030031",
+      "qp_code": "TL/Q01997",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur ITI",
+      "district_code": "030031",
+      "qp_code": "TL/Q04069",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ferozepur",
+      "district_code": "030031",
+      "qp_code": "TL/Q04070",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ferozepur",
+      "district_code": "030031",
+      "qp_code": "TW/Q03635",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur ITI",
+      "district_code": "030031",
+      "qp_code": "TX/Q03347",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gurdaspur",
+      "district_code": "030032",
+      "qp_code": "AM/Q05049",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur Women's Skill Hub",
+      "district_code": "030032",
+      "qp_code": "AM/Q05051",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gurdaspur",
+      "district_code": "030032",
+      "qp_code": "AU/Q05269",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur Rural Self Employment Training Institute",
+      "district_code": "030032",
+      "qp_code": "CO/Q02081",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur Women's Skill Hub",
+      "district_code": "030032",
+      "qp_code": "FI/Q03332",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gurdaspur",
+      "district_code": "030032",
+      "qp_code": "GJ/Q04715",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur District Skill Centre",
+      "district_code": "030032",
+      "qp_code": "HC/Q03857",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur ITI",
+      "district_code": "030032",
+      "qp_code": "HE/Q03461",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur Women's Skill Hub",
+      "district_code": "030032",
+      "qp_code": "HY/Q01363",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur District Skill Centre",
+      "district_code": "030032",
+      "qp_code": "TX/Q01930",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur ITI",
+      "district_code": "030032",
+      "qp_code": "TX/Q01942",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gurdaspur",
+      "district_code": "030032",
+      "qp_code": "TX/Q03348",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hoshiarpur",
+      "district_code": "030033",
+      "qp_code": "EH/Q02592",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hoshiarpur Rural Self Employment Training Institute",
+      "district_code": "030033",
+      "qp_code": "ES/Q01756",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hoshiarpur Women's Skill Hub",
+      "district_code": "030033",
+      "qp_code": "ES/Q02028",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hoshiarpur",
+      "district_code": "030033",
+      "qp_code": "HM/Q04757",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Hoshiarpur",
+      "district_code": "030033",
+      "qp_code": "IS/Q04726",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hoshiarpur",
+      "district_code": "030033",
+      "qp_code": "IT/Q03664",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hoshiarpur",
+      "district_code": "030033",
+      "qp_code": "MG/Q06061",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hoshiarpur ITI",
+      "district_code": "030033",
+      "qp_code": "TELECOM/Q05099",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hoshiarpur",
+      "district_code": "030033",
+      "qp_code": "TL/Q04073",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hoshiarpur",
+      "district_code": "030033",
+      "qp_code": "TX/Q01929",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hoshiarpur",
+      "district_code": "030033",
+      "qp_code": "TX/Q03439",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hoshiarpur",
+      "district_code": "030033",
+      "qp_code": "WC/Q00762",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Jalandhar",
+      "district_code": "030034",
+      "qp_code": "AU/Q02962",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar Rural Self Employment Training Institute",
+      "district_code": "030034",
+      "qp_code": "BFSI/Q04712",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar ITI",
+      "district_code": "030034",
+      "qp_code": "CG/Q04603",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar ITI",
+      "district_code": "030034",
+      "qp_code": "EL/Q05000",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar District Skill Centre",
+      "district_code": "030034",
+      "qp_code": "ES/Q02028",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar District Skill Centre",
+      "district_code": "030034",
+      "qp_code": "HM/Q05059",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Jalandhar",
+      "district_code": "030034",
+      "qp_code": "IS/Q05064",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar Rural Self Employment Training Institute",
+      "district_code": "030034",
+      "qp_code": "IS/Q05442",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar ITI",
+      "district_code": "030034",
+      "qp_code": "IT/Q03639",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar District Skill Centre",
+      "district_code": "030034",
+      "qp_code": "LEATHER/Q04661",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Jalandhar",
+      "district_code": "030034",
+      "qp_code": "PD/Q04976",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar Women's Skill Hub",
+      "district_code": "030034",
+      "qp_code": "TX/Q04104",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kapurthala District Skill Centre",
+      "district_code": "030035",
+      "qp_code": "AA/Q04190",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kapurthala",
+      "district_code": "030035",
+      "qp_code": "AG/Q05159",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kapurthala",
+      "district_code": "030035",
+      "qp_code": "AU/Q00622",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kapurthala",
+      "district_code": "030035",
+      "qp_code": "EL/Q04849",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kapurthala District Skill Centre",
+      "district_code": "030035",
+      "qp_code": "HC/Q03859",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kapurthala",
+      "district_code": "030035",
+      "qp_code": "HE/Q03754",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kapurthala Rural Self Employment Training Institute",
+      "district_code": "030035",
+      "qp_code": "MG/Q05405",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kapurthala District Skill Centre",
+      "district_code": "030035",
+      "qp_code": "PD/Q05343",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kapurthala District Skill Centre",
+      "district_code": "030035",
+      "qp_code": "TH/Q02020",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kapurthala Women's Skill Hub",
+      "district_code": "030035",
+      "qp_code": "TH/Q02022",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kapurthala",
+      "district_code": "030035",
+      "qp_code": "TX/Q01948",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kapurthala",
+      "district_code": "030035",
+      "qp_code": "TX/Q04097",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana ITI",
+      "district_code": "030036",
+      "qp_code": "CG/Q01030",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana District Skill Centre",
+      "district_code": "030036",
+      "qp_code": "CG/Q05305",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana District Skill Centre",
+      "district_code": "030036",
+      "qp_code": "CO/Q02636",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana Rural Self Employment Training Institute",
+      "district_code": "030036",
+      "qp_code": "CO/Q03959",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana Women's Skill Hub",
+      "district_code": "030036",
+      "qp_code": "HM/Q04757",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ludhiana",
+      "district_code": "030036",
+      "qp_code": "HY/Q01366",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Ludhiana",
+      "district_code": "030036",
+      "qp_code": "IT/Q03510",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana Women's Skill Hub",
+      "district_code": "030036",
+      "qp_code": "MG/Q05297",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana Women's Skill Hub",
+      "district_code": "030036",
+      "qp_code": "PD/Q02218",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ludhiana",
+      "district_code": "030036",
+      "qp_code": "TL/Q05392",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Ludhiana",
+      "district_code": "030036",
+      "qp_code": "TLW/Q04964",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana Women's Skill Hub",
+      "district_code": "030036",
+      "qp_code": "TX/Q04094",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Mansa",
+      "district_code": "030037",
+      "qp_code": "AG/Q01265",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa Women's Skill Hub",
+      "district_code": "030037",
+      "qp_code": "AG/Q03353",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa ITI",
+      "district_code": "030037",
+      "qp_code": "AP/Q03573",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa ITI",
+      "district_code": "030037",
+      "qp_code": "AP/Q05218",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa Rural Self Employment Training Institute",
+      "district_code": "030037",
+      "qp_code": "AS/Q05079",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa ITI",
+      "district_code": "030037",
+      "qp_code": "CO/Q03959",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa Women's Skill Hub",
+      "district_code": "030037",
+      "qp_code": "ES/Q01755",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa Rural Self Employment Training Institute",
+      "district_code": "030037",
+      "qp_code": "IS/Q04700",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa Women's Skill Hub",
+      "district_code": "030037",
+      "qp_code": "RI/Q05352",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa ITI",
+      "district_code": "030037",
+      "qp_code": "TH/Q01999",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa ITI",
+      "district_code": "030037",
+      "qp_code": "TH/Q02454",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa Rural Self Employment Training Institute",
+      "district_code": "030037",
+      "qp_code": "US/Q01353",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga ITI",
+      "district_code": "030038",
+      "qp_code": "BW/Q02096",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga Rural Self Employment Training Institute",
+      "district_code": "030038",
+      "qp_code": "EH/Q02776",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Moga",
+      "district_code": "030038",
+      "qp_code": "EH/Q03976",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga District Skill Centre",
+      "district_code": "030038",
+      "qp_code": "EH/Q05201",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga Rural Self Employment Training Institute",
+      "district_code": "030038",
+      "qp_code": "EL/Q04902",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga District Skill Centre",
+      "district_code": "030038",
+      "qp_code": "HY/Q04019",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Moga",
+      "district_code": "030038",
+      "qp_code": "IN/Q05088",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga Rural Self Employment Training Institute",
+      "district_code": "030038",
+      "qp_code": "IT/Q01987",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga District Skill Centre",
+      "district_code": "030038",
+      "qp_code": "IT/Q03648",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Moga",
+      "district_code": "030038",
+      "qp_code": "IT/Q05327",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Moga",
+      "district_code": "030038",
+      "qp_code": "RI/Q05359",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga Rural Self Employment Training Institute",
+      "district_code": "030038",
+      "qp_code": "SP/Q02951",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib Rural Self Employment Training Institute",
+      "district_code": "030039",
+      "qp_code": "AP/Q03571",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib Women's Skill Hub",
+      "district_code": "030039",
+      "qp_code": "BF/Q02856",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib Women's Skill Hub",
+      "district_code": "030039",
+      "qp_code": "HC/Q05162",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Sri Muktsar Sahib",
+      "district_code": "030039",
+      "qp_code": "HY/Q01363",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Sri Muktsar Sahib",
+      "district_code": "030039",
+      "qp_code": "OA/Q04023",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib ITI",
+      "district_code": "030039",
+      "qp_code": "OA/Q04027",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib Rural Self Employment Training Institute",
+      "district_code": "030039",
+      "qp_code": "PL/Q03440",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib Women's Skill Hub",
+      "district_code": "030039",
+      "qp_code": "TH/Q01028",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib Women's Skill Hub",
+      "district_code": "030039",
+      "qp_code": "TH/Q02320",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Sri Muktsar Sahib",
+      "district_code": "030039",
+      "qp_code": "TW/Q02473",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib District Skill Centre",
+      "district_code": "030039",
+      "qp_code": "TX/Q01949",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib ITI",
+      "district_code": "030039",
+      "qp_code": "TX/Q03261",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "AG/Q01263",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "AG/Q01980",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "AG/Q02836",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "AG/Q03351",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "AG/Q03353",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "AG/Q04286",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "AG/Q04289",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "AG/Q04290",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "AG/Q05069",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "AG/Q05107",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "AG/Q05108",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "AM/Q04952",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "AM/Q04967",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "AM/Q05050",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "AP/Q01865",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "AP/Q03425",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "AU/Q03595",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "BF/Q02856",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "BW/Q02858",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "BW/Q03601",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "BW/Q04315",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "CG/Q03939",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "CG/Q05272",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "CG/Q05303",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "CG/Q05930",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "CH/Q04938",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "CO/Q02086",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "CO/Q03950",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "CO/Q03951",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "CO/Q03959",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "CO/Q05300",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "CO/Q05306",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "EH/Q00993",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "EH/Q02853",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "EL/Q04843",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "EL/Q04859",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "EL/Q05000",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "ES/Q01752",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "ES/Q02631",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "ES/Q02632",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "FI/Q01396",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "FI/Q03332",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "FI/Q03436",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "FI/Q04925",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "GJ/Q05315",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "HC/Q03852",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "HC/Q03854",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "HC/Q04009",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "HC/Q04016",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "HC/Q04017",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "HC/Q04879",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "HC/Q04927",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "HC/Q05094",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "HC/Q05224",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "HE/Q03620",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "HE/Q03767",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "HM/Q04529",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "HM/Q04757",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "HM/Q05038",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "HY/Q02960",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "IS/Q04722",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "IS/Q04726",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "IT/Q03520",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "district_code": "090187",
+      "qp_code": "IT/Q03646",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "IT/Q03666",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "IT/Q04415",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "IT/Q05242",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "M/Q04906",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "OA/Q02520",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "OR/Q03321",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "OR/Q04253",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "PB/Q04974",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "PB/Q05160",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "district_code": "090187",
+      "qp_code": "PD/Q02221",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "PD/Q04982",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "PL/Q03441",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "PL/Q05253",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "PW/Q05279",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "RI/Q05373",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "RI/Q05375",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "RI/Q05451",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "TH/Q01825",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "TH/Q01829",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "TH/Q02004",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "TH/Q02016",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "district_code": "090187",
+      "qp_code": "TH/Q02461",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "TW/Q02194",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "TW/Q03309",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "district_code": "090187",
+      "qp_code": "TX/Q01936",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "district_code": "090187",
+      "qp_code": "TX/Q04105",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "AG/Q01263",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AG/Q02836",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AG/Q03351",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AG/Q03353",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AG/Q03355",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AG/Q04286",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "AG/Q04289",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "AG/Q04290",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "AG/Q04706",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AG/Q05069",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "AG/Q05108",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "AG/Q05159",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "AG/Q05190",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AM/Q04967",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "AM/Q05050",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AP/Q01865",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AP/Q01866",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "AP/Q01867",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "AP/Q01868",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "AP/Q03425",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "AU/Q02944",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "AU/Q03593",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "BF/Q02856",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "BFSI/Q04887",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Women's Skill Hub",
+      "district_code": "100196",
+      "qp_code": "BW/Q02858",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "BW/Q03601",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "BW/Q04315",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "BW/Q04945",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "CG/Q03939",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "CG/Q05077",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "CG/Q05272",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "CG/Q05303",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "CG/Q05937",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "CH/Q04938",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "CH/Q04958",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "CO/Q03950",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Women's Skill Hub",
+      "district_code": "100196",
+      "qp_code": "CO/Q03951",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "CO/Q03959",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "CO/Q05300",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "CO/Q05306",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "CP/Q05385",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "EH/Q02834",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "EH/Q02853",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "EH/Q03898",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "EH/Q05299",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "EL/Q04848",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "EL/Q04859",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "ES/Q01752",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "ES/Q02631",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "ES/Q02632",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "FI/Q03332",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "FI/Q03436",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "FI/Q04925",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "GJ/Q05315",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "HC/Q03854",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "HC/Q04017",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "HC/Q04179",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Women's Skill Hub",
+      "district_code": "100196",
+      "qp_code": "HC/Q04927",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Women's Skill Hub",
+      "district_code": "100196",
+      "qp_code": "HE/Q00649",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "HE/Q04230",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "HM/Q04757",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Women's Skill Hub",
+      "district_code": "100196",
+      "qp_code": "HM/Q05038",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "HY/Q03627",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "IS/Q05427",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "IS/Q05444",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "IT/Q01844",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Women's Skill Hub",
+      "district_code": "100196",
+      "qp_code": "IT/Q03520",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "IT/Q03646",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "IT/Q03657",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "IT/Q05242",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "MG/Q06061",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Women's Skill Hub",
+      "district_code": "100196",
+      "qp_code": "OA/Q04023",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "OR/Q03320",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "OR/Q04253",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "OR/Q05115",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "PB/Q04974",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "PB/Q05160",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "PL/Q03441",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "PL/Q03705",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "district_code": "100196",
+      "qp_code": "RI/Q05373",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "RI/Q05448",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "TH/Q00402",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "TH/Q01825",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "TL/Q01996",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "TLW/Q04956",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "TW/Q01982",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "district_code": "100196",
+      "qp_code": "TW/Q03309",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "TX/Q01938",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "district_code": "100196",
+      "qp_code": "TX/Q04104",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "district_code": "100196",
+      "qp_code": "TX/Q04285",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "AG/Q01263",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "AG/Q02836",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "AG/Q03351",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "AG/Q03353",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "AG/Q03355",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "AG/Q04290",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "AG/Q05071",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "AG/Q05108",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "AM/Q04952",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "AM/Q05050",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "AP/Q01865",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "AP/Q01866",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "AP/Q01867",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "AP/Q01868",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "AP/Q03282",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "AU/Q02944",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "AU/Q03595",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "BW/Q02858",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "BW/Q04315",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "BW/Q04945",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "CG/Q01029",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "CG/Q01031",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "CG/Q03939",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "CG/Q04451",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "CG/Q05077",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "CH/Q04938",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "CO/Q03950",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "CO/Q03951",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "CO/Q03959",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "CO/Q03965",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "CO/Q05300",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "EH/Q01402",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "EH/Q02853",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "EH/Q03974",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "EH/Q05453",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "EL/Q04848",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "ES/Q01752",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "ES/Q01753",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "ES/Q02631",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "ES/Q02632",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "ES/Q04052",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "FI/Q01396",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "FI/Q03436",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "GJ/Q05084",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "GJ/Q05315",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "HC/Q03852",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "HC/Q04009",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "HC/Q04011",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "HC/Q04017",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "HC/Q04018",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "HC/Q04927",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "HC/Q05094",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "HC/Q05224",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "HM/Q04757",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "HM/Q05038",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "HY/Q02524",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "IS/Q04722",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "IS/Q05441",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "IT/Q01490",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "IT/Q03520",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "IT/Q03646",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "OA/Q02520",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "OA/Q04022",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "OA/Q04939",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "OR/Q02434",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "OR/Q03320",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "OR/Q03321",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "OR/Q03322",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "OR/Q04253",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "PB/Q04974",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "PB/Q05160",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "PD/Q00883",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "PD/Q02516",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "PL/Q02942",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "PL/Q03440",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "PL/Q03705",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "RI/Q05369",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "district_code": "270481",
+      "qp_code": "RI/Q05373",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "RI/Q05375",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "TH/Q01825",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "TH/Q01829",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "TH/Q02461",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "district_code": "270481",
+      "qp_code": "TH/Q02466",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "TLW/Q04956",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "TW/Q01356",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "district_code": "270481",
+      "qp_code": "TW/Q01982",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "TX/Q01939",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "district_code": "270481",
+      "qp_code": "TX/Q03703",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "TX/Q04104",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "district_code": "270481",
+      "qp_code": "TX/Q04105",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "AG/Q01262",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "AG/Q01263",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "AG/Q01980",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "AG/Q03351",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "AG/Q03353",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "AG/Q03355",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "AG/Q04289",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "AG/Q04290",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "AG/Q05069",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "AG/Q05107",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "AG/Q05159",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "AM/Q04905",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "AM/Q04952",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "AM/Q04967",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "AM/Q05050",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "AP/Q01865",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "AP/Q01866",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "AP/Q01867",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "AP/Q03425",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "AU/Q02944",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "AU/Q03595",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "BF/Q02856",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "BW/Q02858",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "BW/Q03601",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "BW/Q04315",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "CG/Q03939",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "CG/Q05077",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "CG/Q05272",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "CG/Q05303",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "CG/Q05928",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "CH/Q04938",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "CO/Q03950",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "CO/Q03951",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "CO/Q03956",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "CO/Q03959",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "CO/Q05300",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "CO/Q05306",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "CP/Q05390",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "EH/Q01398",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "EH/Q02853",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "EH/Q05362",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "EH/Q05453",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "EL/Q04839",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "EL/Q04859",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "ES/Q02628",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "ES/Q02631",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "ES/Q02632",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "FI/Q01396",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "FI/Q03332",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "FI/Q03436",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "FI/Q04925",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "GJ/Q05315",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "HC/Q04009",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "HC/Q04017",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "HC/Q04927",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "HC/Q05174",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "HM/Q04757",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "IS/Q05423",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "IS/Q05433",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "IS/Q05444",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "IT/Q01988",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "IT/Q03423",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "IT/Q03638",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "IT/Q03646",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "IT/Q03649",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "IT/Q03665",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "IT/Q04172",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "IT/Q05235",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "ME/Q05220",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "OA/Q03865",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "OR/Q02875",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "OR/Q03320",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "OR/Q03321",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "OR/Q04253",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "PB/Q04974",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "PB/Q05160",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "PD/Q00402",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "PD/Q04615",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "PL/Q03440",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "RI/Q05373",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "district_code": "270485",
+      "qp_code": "RI/Q05375",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "RI/Q05450",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "district_code": "270485",
+      "qp_code": "TH/Q01825",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "TH/Q01829",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "TH/Q02011",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "TH/Q02461",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "district_code": "270485",
+      "qp_code": "TLW/Q04956",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "TLW/Q04964",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "district_code": "270485",
+      "qp_code": "TW/Q02622",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "district_code": "270485",
+      "qp_code": "TX/Q04104",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "AG/Q01263",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "AG/Q01980",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "AG/Q03351",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "AG/Q03353",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "AG/Q04286",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "AG/Q04289",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "AG/Q04290",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "AG/Q05069",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "AG/Q05070",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "AG/Q05071",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "AG/Q05108",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "AG/Q05159",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "AM/Q04905",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "AM/Q04952",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "AM/Q04967",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "AM/Q05050",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "AP/Q01865",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "AP/Q01867",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "AP/Q01868",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "AP/Q03425",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "AP/Q05216",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "AS/Q05079",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "AU/Q02944",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "AU/Q03595",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "BF/Q02856",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "BFSI/Q04712",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "BW/Q03600",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "BW/Q03601",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "BW/Q04315",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "CG/Q03939",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "CG/Q05272",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "CG/Q05303",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "CH/Q04938",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "CO/Q03950",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "CO/Q03961",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "CO/Q05306",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "EH/Q03422",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "EH/Q05453",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "EL/Q04848",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "EL/Q04855",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "EL/Q04859",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "ES/Q01752",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "ES/Q02629",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "ES/Q02631",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "ES/Q02632",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "FI/Q01396",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "FI/Q03436",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "GJ/Q05066",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "GJ/Q05315",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "HC/Q03288",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "HC/Q03854",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "HC/Q04009",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "HC/Q04017",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "HC/Q04179",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "HC/Q04927",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "HC/Q05094",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "HC/Q05224",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "HY/Q02620",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "IS/Q04703",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "IT/Q01490",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "IT/Q03520",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "IT/Q05237",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "IT/Q05323",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "IT/Q05328",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "LEATHER/Q04658",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "LS/Q03400",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "MG/Q06061",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "district_code": "360514",
+      "qp_code": "OA/Q02520",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "OR/Q03320",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "OR/Q03321",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "OR/Q03325",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "OR/Q04253",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "PB/Q04974",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "PB/Q05160",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "PD/Q02499",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "PL/Q03440",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "PL/Q03705",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "RI/Q05373",
+      "seats": 60,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "RI/Q05375",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "TH/Q01825",
+      "seats": 40,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "TH/Q02451",
+      "seats": 35,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "TH/Q02461",
+      "seats": 25,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "TL/Q02635",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "district_code": "360514",
+      "qp_code": "TL/Q04078",
+      "seats": 15,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "TLW/Q04956",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "TX/Q01924",
+      "seats": 20,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "TX/Q01929",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "district_code": "360514",
+      "qp_code": "TX/Q04096",
+      "seats": 30,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "district_code": "360514",
+      "qp_code": "TX/Q04101",
+      "seats": 50,
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "district_code": "360514",
+      "qp_code": "TX/Q04105",
+      "seats": 50,
+      "synthetic": true
+    }
+  ]
+}

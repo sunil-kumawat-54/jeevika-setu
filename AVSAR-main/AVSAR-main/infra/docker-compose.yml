@@ -1,0 +1,114 @@
+# Jeevikasetu local stack — ARCHITECTURE.md §10
+#   docker compose up -d db redis core web
+#   docker compose --profile full up -d      # adds ivr-bridge + nginx
+name: jeevikasetu
+
+services:
+  db:
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    image: jeevikasetu-postgres:16-pgvector-postgis
+    container_name: jeevikasetu-db
+    environment:
+      POSTGRES_USER: avsar
+      POSTGRES_PASSWORD: avsar
+      POSTGRES_DB: avsar
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - jeevikasetu_pgdata:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/00-init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U avsar -d avsar && psql -U avsar -d avsar -tAc \"SELECT count(*) FROM pg_extension WHERE extname IN ('vector','pg_trgm','postgis')\" | grep -q 3"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+      start_period: 10s
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    container_name: jeevikasetu-redis
+    command: ["redis-server", "--appendonly", "no", "--save", ""]
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 3s
+    restart: unless-stopped
+
+  core:
+    build:
+      context: ..
+      dockerfile: services/core/Dockerfile
+    container_name: jeevikasetu-core
+    env_file:
+      - ../.env
+    environment:
+      DATABASE_URL: postgresql+psycopg://avsar:avsar@db:5432/avsar
+      REDIS_URL: redis://redis:6379/0
+      PYTHONPATH: /srv/services
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      # Whole repo is mounted so pytest can assert the ARCHITECTURE section 1
+      # layout and `make ingest` can write seeds/ straight back into git.
+      - ..:/srv
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8000/v1/healthz || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+      start_period: 20s
+    restart: unless-stopped
+
+  web:
+    build:
+      # Repo root: the PWA imports data/prompts/*.json (see apps/web/Dockerfile).
+      context: ..
+      dockerfile: apps/web/Dockerfile
+    container_name: jeevikasetu-web
+    environment:
+      NODE_ENV: production
+      CORE_URL: http://core:8000
+      NEXT_PUBLIC_CORE_URL: http://localhost:8000
+      NEXT_TELEMETRY_DISABLED: "1"
+      HOSTNAME: "0.0.0.0"
+    ports:
+      - "3000:3000"
+    depends_on:
+      core:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "node -e \"fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))\""]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+      start_period: 20s
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: avsar-nginx
+    profiles: ["full"]
+    ports:
+      - "8080:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - core
+      - web
+    restart: unless-stopped
+
+volumes:
+  jeevikasetu_pgdata:

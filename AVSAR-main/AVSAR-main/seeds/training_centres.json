@@ -1,0 +1,2446 @@
+{
+  "provenance": {
+    "failure_reason": null,
+    "fallback_note": "centre_supply is synthetic BY DESIGN, not because a fetch failed. research.md 4.3: NSDC skill-gap studies stop at sector x skill-band, SANKALP DSDPs are not bulk-downloadable, NCS publishes no open data, and SIDH's course-listing route is undiscovered. Every row sets synthetic=true and the dashboard renders a visible badge. Replacing this table with a real SIDH/State-Mission extract is the Q1 roadmap item in PLAN.md 13.",
+    "fetched_at": "2026-09-29T07:47:47.817856+00:00",
+    "freshness_at": "2026-09-29T07:47:47.817856+00:00",
+    "http_status": null,
+    "last_verified_at": null,
+    "mode": "synthetic",
+    "notes": [
+      "Canonical training-centre/programme rows are derived from centre_supply.",
+      "No coordinates are generated from district aggregates; coordinate_status=synthetic."
+    ],
+    "pipeline": "05_seed_district_supply",
+    "rows": 269,
+    "source_name": "05_seed_district_supply",
+    "source_url": "synthetic (no real district x QP supply dataset is published)",
+    "source_version": "4ea0d68e7d4fd206",
+    "synthetic": true,
+    "verification_note": null,
+    "verification_status": "unverified"
+  },
+  "records": [
+    {
+      "centre_name": "Anantnag ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010001",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010001:Anantnag ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010001",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010001:Anantnag Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Anantnag",
+      "coordinate_status": "synthetic",
+      "district_code": "010001",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010001:PMKVY Training Centre, Anantnag",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010001",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010001:Anantnag District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Anantnag Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010001",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010001:Anantnag Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Budgam",
+      "coordinate_status": "synthetic",
+      "district_code": "010002",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010002:PMKVY Training Centre, Budgam",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Budgam",
+      "coordinate_status": "synthetic",
+      "district_code": "010002",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010002:Common Service Centre, Budgam",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Budgam Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010002",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010002:Budgam Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Budgam District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010002",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010002:Budgam District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Baramulla",
+      "coordinate_status": "synthetic",
+      "district_code": "010003",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010003:PMKVY Training Centre, Baramulla",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010003",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010003:Baramulla ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Baramulla",
+      "coordinate_status": "synthetic",
+      "district_code": "010003",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010003:Common Service Centre, Baramulla",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010003",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010003:Baramulla Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010003",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010003:Baramulla Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Baramulla District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010003",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010003:Baramulla District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Doda Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010004",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010004:Doda Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Doda",
+      "coordinate_status": "synthetic",
+      "district_code": "010004",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010004:PMKVY Training Centre, Doda",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Doda Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010004",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010004:Doda Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Doda",
+      "coordinate_status": "synthetic",
+      "district_code": "010004",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010004:Common Service Centre, Doda",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010005",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010005:Jammu ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010005",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010005:Jammu Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Jammu",
+      "coordinate_status": "synthetic",
+      "district_code": "010005",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010005:PMKVY Training Centre, Jammu",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010005",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010005:Jammu District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jammu Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010005",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010005:Jammu Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Jammu",
+      "coordinate_status": "synthetic",
+      "district_code": "010005",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010005:Common Service Centre, Jammu",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010007",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010007:Kathua ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010007",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010007:Kathua Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kathua",
+      "coordinate_status": "synthetic",
+      "district_code": "010007",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010007:Common Service Centre, Kathua",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010007",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010007:Kathua District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kathua Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010007",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010007:Kathua Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010008",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010008:Kupwara Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kupwara",
+      "coordinate_status": "synthetic",
+      "district_code": "010008",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010008:Common Service Centre, Kupwara",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010008",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010008:Kupwara District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kupwara Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010008",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010008:Kupwara Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Poonch",
+      "coordinate_status": "synthetic",
+      "district_code": "010010",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010010:Common Service Centre, Poonch",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Poonch",
+      "coordinate_status": "synthetic",
+      "district_code": "010010",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010010:PMKVY Training Centre, Poonch",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010010",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010010:Poonch Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010010",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010010:Poonch ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010010",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010010:Poonch Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Poonch District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010010",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010010:Poonch District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010011",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010011:Pulwama ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010011",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010011:Pulwama Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Pulwama",
+      "coordinate_status": "synthetic",
+      "district_code": "010011",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010011:PMKVY Training Centre, Pulwama",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010011",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010011:Pulwama District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Pulwama Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010011",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010011:Pulwama Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Pulwama",
+      "coordinate_status": "synthetic",
+      "district_code": "010011",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010011:Common Service Centre, Pulwama",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Rajouri",
+      "coordinate_status": "synthetic",
+      "district_code": "010012",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010012:Common Service Centre, Rajouri",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010012",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010012:Rajouri District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010012",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010012:Rajouri Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010012",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010012:Rajouri ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Rajouri",
+      "coordinate_status": "synthetic",
+      "district_code": "010012",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010012:PMKVY Training Centre, Rajouri",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Rajouri Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010012",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010012:Rajouri Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010013",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010013:Srinagar District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010013",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010013:Srinagar Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Srinagar",
+      "coordinate_status": "synthetic",
+      "district_code": "010013",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010013:PMKVY Training Centre, Srinagar",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Srinagar Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010013",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010013:Srinagar Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Srinagar",
+      "coordinate_status": "synthetic",
+      "district_code": "010013",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010013:Common Service Centre, Srinagar",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010014",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010014:Udhampur Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010014",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010014:Udhampur Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Udhampur",
+      "coordinate_status": "synthetic",
+      "district_code": "010014",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010014:Common Service Centre, Udhampur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Udhampur District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010014",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010014:Udhampur District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Udhampur",
+      "coordinate_status": "synthetic",
+      "district_code": "010014",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010014:PMKVY Training Centre, Udhampur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010620",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010620:Kishtwar District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010620",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010620:Kishtwar ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kishtwar",
+      "coordinate_status": "synthetic",
+      "district_code": "010620",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010620:PMKVY Training Centre, Kishtwar",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kishtwar",
+      "coordinate_status": "synthetic",
+      "district_code": "010620",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010620:Common Service Centre, Kishtwar",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kishtwar Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010620",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010620:Kishtwar Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010621",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010621:Ramban ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ramban",
+      "coordinate_status": "synthetic",
+      "district_code": "010621",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010621:PMKVY Training Centre, Ramban",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Ramban",
+      "coordinate_status": "synthetic",
+      "district_code": "010621",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010621:Common Service Centre, Ramban",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010621",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010621:Ramban Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ramban District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010621",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010621:Ramban District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010622",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010622:Kulgam District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010622",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010622:Kulgam ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kulgam",
+      "coordinate_status": "synthetic",
+      "district_code": "010622",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010622:PMKVY Training Centre, Kulgam",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kulgam",
+      "coordinate_status": "synthetic",
+      "district_code": "010622",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010622:Common Service Centre, Kulgam",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010622",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010622:Kulgam Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kulgam Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010622",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010622:Kulgam Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010623",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010623:Bandipora Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010623",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010623:Bandipora Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Bandipora",
+      "coordinate_status": "synthetic",
+      "district_code": "010623",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010623:PMKVY Training Centre, Bandipora",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Bandipora",
+      "coordinate_status": "synthetic",
+      "district_code": "010623",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010623:Common Service Centre, Bandipora",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010623",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010623:Bandipora ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bandipora District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010623",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010623:Bandipora District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010624",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010624:Samba ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010624",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010624:Samba Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Samba",
+      "coordinate_status": "synthetic",
+      "district_code": "010624",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010624:PMKVY Training Centre, Samba",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Samba District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010624",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010624:Samba District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Samba",
+      "coordinate_status": "synthetic",
+      "district_code": "010624",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010624:Common Service Centre, Samba",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010625",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010625:Shopian Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010625",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010625:Shopian District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010625",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010625:Shopian Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shopian ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010625",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010625:Shopian ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Shopian",
+      "coordinate_status": "synthetic",
+      "district_code": "010625",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010625:PMKVY Training Centre, Shopian",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Ganderbal",
+      "coordinate_status": "synthetic",
+      "district_code": "010626",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010626:Common Service Centre, Ganderbal",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010626",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010626:Ganderbal District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010626",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010626:Ganderbal Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010626",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010626:Ganderbal ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ganderbal Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010626",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010626:Ganderbal Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ganderbal",
+      "coordinate_status": "synthetic",
+      "district_code": "010626",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010626:PMKVY Training Centre, Ganderbal",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "010627",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010627:Reasi Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "010627",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010627:Reasi ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "010627",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010627:Reasi District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Reasi",
+      "coordinate_status": "synthetic",
+      "district_code": "010627",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010627:PMKVY Training Centre, Reasi",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Reasi Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "010627",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010627:Reasi Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Reasi",
+      "coordinate_status": "synthetic",
+      "district_code": "010627",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "010627:Common Service Centre, Reasi",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "020015",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020015:Bilaspur ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020015",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020015:Bilaspur District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Bilaspur",
+      "coordinate_status": "synthetic",
+      "district_code": "020015",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020015:Common Service Centre, Bilaspur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bilaspur Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020015",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020015:Bilaspur Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020016",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020016:Chamba District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Chamba",
+      "coordinate_status": "synthetic",
+      "district_code": "020016",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020016:Common Service Centre, Chamba",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020016",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020016:Chamba Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020016",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020016:Chamba Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Chamba",
+      "coordinate_status": "synthetic",
+      "district_code": "020016",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020016:PMKVY Training Centre, Chamba",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Chamba ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "020016",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020016:Chamba ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020017",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020017:Hamirpur Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "020017",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020017:Hamirpur ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020017",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020017:Hamirpur District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hamirpur Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020017",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020017:Hamirpur Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hamirpur",
+      "coordinate_status": "synthetic",
+      "district_code": "020017",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020017:PMKVY Training Centre, Hamirpur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Hamirpur",
+      "coordinate_status": "synthetic",
+      "district_code": "020017",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020017:Common Service Centre, Hamirpur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020018",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020018:Kangra Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kangra",
+      "coordinate_status": "synthetic",
+      "district_code": "020018",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020018:Common Service Centre, Kangra",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kangra",
+      "coordinate_status": "synthetic",
+      "district_code": "020018",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020018:PMKVY Training Centre, Kangra",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020018",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020018:Kangra District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kangra Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020018",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020018:Kangra Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020019",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020019:Kinnaur District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kinnaur",
+      "coordinate_status": "synthetic",
+      "district_code": "020019",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020019:PMKVY Training Centre, Kinnaur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kinnaur",
+      "coordinate_status": "synthetic",
+      "district_code": "020019",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020019:Common Service Centre, Kinnaur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "020019",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020019:Kinnaur ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020019",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020019:Kinnaur Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kinnaur Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020019",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020019:Kinnaur Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "020020",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020020:Kullu ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020020",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020020:Kullu Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kullu Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020020",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020020:Kullu Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kullu",
+      "coordinate_status": "synthetic",
+      "district_code": "020020",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020020:Common Service Centre, Kullu",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "020021",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020021:Lahaul And Spiti ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Lahaul And Spiti",
+      "coordinate_status": "synthetic",
+      "district_code": "020021",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020021:Common Service Centre, Lahaul And Spiti",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020021",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020021:Lahaul And Spiti District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020021",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020021:Lahaul And Spiti Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Lahaul And Spiti Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020021",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020021:Lahaul And Spiti Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Mandi",
+      "coordinate_status": "synthetic",
+      "district_code": "020022",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020022:PMKVY Training Centre, Mandi",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020022",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020022:Mandi District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Mandi",
+      "coordinate_status": "synthetic",
+      "district_code": "020022",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020022:Common Service Centre, Mandi",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020022",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020022:Mandi Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mandi Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020022",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020022:Mandi Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020023",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020023:Shimla District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020023",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020023:Shimla Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020023",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020023:Shimla Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Shimla",
+      "coordinate_status": "synthetic",
+      "district_code": "020023",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020023:Common Service Centre, Shimla",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Shimla",
+      "coordinate_status": "synthetic",
+      "district_code": "020023",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020023:PMKVY Training Centre, Shimla",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Shimla ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "020023",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020023:Shimla ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020024",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020024:Sirmaur Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020024",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020024:Sirmaur Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020024",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020024:Sirmaur District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sirmaur ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "020024",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020024:Sirmaur ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Sirmaur",
+      "coordinate_status": "synthetic",
+      "district_code": "020024",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020024:PMKVY Training Centre, Sirmaur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Sirmaur",
+      "coordinate_status": "synthetic",
+      "district_code": "020024",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020024:Common Service Centre, Sirmaur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "020025",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020025:Solan Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Solan",
+      "coordinate_status": "synthetic",
+      "district_code": "020025",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020025:PMKVY Training Centre, Solan",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020025",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020025:Solan District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Solan",
+      "coordinate_status": "synthetic",
+      "district_code": "020025",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020025:Common Service Centre, Solan",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Solan Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020025",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020025:Solan Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Una",
+      "coordinate_status": "synthetic",
+      "district_code": "020026",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020026:PMKVY Training Centre, Una",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Una District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "020026",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020026:Una District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Una ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "020026",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020026:Una ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Una Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "020026",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020026:Una Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Una",
+      "coordinate_status": "synthetic",
+      "district_code": "020026",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "020026:Common Service Centre, Una",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030027",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030027:Amritsar ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030027",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030027:Amritsar Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030027",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030027:Amritsar Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Amritsar District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030027",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030027:Amritsar District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Amritsar",
+      "coordinate_status": "synthetic",
+      "district_code": "030027",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030027:Common Service Centre, Amritsar",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Bathinda",
+      "coordinate_status": "synthetic",
+      "district_code": "030028",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030028:PMKVY Training Centre, Bathinda",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030028",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030028:Bathinda District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030028",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030028:Bathinda Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030028",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030028:Bathinda Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Bathinda ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030028",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030028:Bathinda ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030029",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030029:Faridkot District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Faridkot",
+      "coordinate_status": "synthetic",
+      "district_code": "030029",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030029:Common Service Centre, Faridkot",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030029",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030029:Faridkot Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030029",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030029:Faridkot ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Faridkot Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030029",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030029:Faridkot Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Faridkot",
+      "coordinate_status": "synthetic",
+      "district_code": "030029",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030029:PMKVY Training Centre, Faridkot",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030030",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030030:Fatehgarh Sahib District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Fatehgarh Sahib",
+      "coordinate_status": "synthetic",
+      "district_code": "030030",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030030:PMKVY Training Centre, Fatehgarh Sahib",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030030",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030030:Fatehgarh Sahib Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030030",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030030:Fatehgarh Sahib Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Fatehgarh Sahib",
+      "coordinate_status": "synthetic",
+      "district_code": "030030",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030030:Common Service Centre, Fatehgarh Sahib",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Fatehgarh Sahib ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030030",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030030:Fatehgarh Sahib ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ferozepur",
+      "coordinate_status": "synthetic",
+      "district_code": "030031",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030031:PMKVY Training Centre, Ferozepur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030031",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030031:Ferozepur ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030031",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030031:Ferozepur Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030031",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030031:Ferozepur Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ferozepur District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030031",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030031:Ferozepur District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gurdaspur",
+      "coordinate_status": "synthetic",
+      "district_code": "030032",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030032:Common Service Centre, Gurdaspur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030032",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030032:Gurdaspur Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gurdaspur",
+      "coordinate_status": "synthetic",
+      "district_code": "030032",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030032:PMKVY Training Centre, Gurdaspur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030032",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030032:Gurdaspur Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030032",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030032:Gurdaspur District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gurdaspur ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030032",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030032:Gurdaspur ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Hoshiarpur",
+      "coordinate_status": "synthetic",
+      "district_code": "030033",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030033:PMKVY Training Centre, Hoshiarpur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hoshiarpur Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030033",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030033:Hoshiarpur Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hoshiarpur Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030033",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030033:Hoshiarpur Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Hoshiarpur",
+      "coordinate_status": "synthetic",
+      "district_code": "030033",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030033:Common Service Centre, Hoshiarpur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Hoshiarpur ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030033",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030033:Hoshiarpur ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Jalandhar",
+      "coordinate_status": "synthetic",
+      "district_code": "030034",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030034:Common Service Centre, Jalandhar",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030034",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030034:Jalandhar Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030034",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030034:Jalandhar ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030034",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030034:Jalandhar District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Jalandhar",
+      "coordinate_status": "synthetic",
+      "district_code": "030034",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030034:PMKVY Training Centre, Jalandhar",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Jalandhar Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030034",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030034:Jalandhar Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kapurthala District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030035",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030035:Kapurthala District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Kapurthala",
+      "coordinate_status": "synthetic",
+      "district_code": "030035",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030035:PMKVY Training Centre, Kapurthala",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Kapurthala",
+      "coordinate_status": "synthetic",
+      "district_code": "030035",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030035:Common Service Centre, Kapurthala",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kapurthala Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030035",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030035:Kapurthala Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Kapurthala Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030035",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030035:Kapurthala Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030036",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030036:Ludhiana ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030036",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030036:Ludhiana District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030036",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030036:Ludhiana Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Ludhiana Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030036",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030036:Ludhiana Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Ludhiana",
+      "coordinate_status": "synthetic",
+      "district_code": "030036",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030036:PMKVY Training Centre, Ludhiana",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Ludhiana",
+      "coordinate_status": "synthetic",
+      "district_code": "030036",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030036:Common Service Centre, Ludhiana",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Mansa",
+      "coordinate_status": "synthetic",
+      "district_code": "030037",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030037:PMKVY Training Centre, Mansa",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030037",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030037:Mansa Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030037",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030037:Mansa ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Mansa Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030037",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030037:Mansa Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030038",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030038:Moga ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030038",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030038:Moga Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Moga",
+      "coordinate_status": "synthetic",
+      "district_code": "030038",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030038:PMKVY Training Centre, Moga",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Moga District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030038",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030038:Moga District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Moga",
+      "coordinate_status": "synthetic",
+      "district_code": "030038",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030038:Common Service Centre, Moga",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "030039",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030039:Sri Muktsar Sahib Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "030039",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030039:Sri Muktsar Sahib Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Sri Muktsar Sahib",
+      "coordinate_status": "synthetic",
+      "district_code": "030039",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030039:Common Service Centre, Sri Muktsar Sahib",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "030039",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030039:Sri Muktsar Sahib ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Sri Muktsar Sahib",
+      "coordinate_status": "synthetic",
+      "district_code": "030039",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030039:PMKVY Training Centre, Sri Muktsar Sahib",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Sri Muktsar Sahib District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "030039",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "030039:Sri Muktsar Sahib District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "090187",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "090187:Varanasi Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "090187",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "090187:Varanasi ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Varanasi",
+      "coordinate_status": "synthetic",
+      "district_code": "090187",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "090187:Common Service Centre, Varanasi",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Varanasi",
+      "coordinate_status": "synthetic",
+      "district_code": "090187",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "090187:PMKVY Training Centre, Varanasi",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "090187",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "090187:Varanasi Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Varanasi District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "090187",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "090187:Varanasi District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "100196",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "100196:Gaya Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Gaya",
+      "coordinate_status": "synthetic",
+      "district_code": "100196",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "100196:PMKVY Training Centre, Gaya",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Gaya",
+      "coordinate_status": "synthetic",
+      "district_code": "100196",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "100196:Common Service Centre, Gaya",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "100196",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "100196:Gaya ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "100196",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "100196:Gaya District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Gaya Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "100196",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "100196:Gaya Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "270481",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270481:Latur District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "270481",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270481:Latur Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "270481",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270481:Latur ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Latur",
+      "coordinate_status": "synthetic",
+      "district_code": "270481",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270481:Common Service Centre, Latur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Latur",
+      "coordinate_status": "synthetic",
+      "district_code": "270481",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270481:PMKVY Training Centre, Latur",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Latur Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "270481",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270481:Latur Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "270485",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270485:Nanded ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "270485",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270485:Nanded Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nanded",
+      "coordinate_status": "synthetic",
+      "district_code": "270485",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270485:PMKVY Training Centre, Nanded",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "270485",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270485:Nanded District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nanded",
+      "coordinate_status": "synthetic",
+      "district_code": "270485",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270485:Common Service Centre, Nanded",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nanded Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "270485",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "270485:Nanded Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Common Service Centre, Nalgonda",
+      "coordinate_status": "synthetic",
+      "district_code": "360514",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "360514:Common Service Centre, Nalgonda",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Rural Self Employment Training Institute",
+      "coordinate_status": "synthetic",
+      "district_code": "360514",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "360514:Nalgonda Rural Self Employment Training Institute",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "PMKVY Training Centre, Nalgonda",
+      "coordinate_status": "synthetic",
+      "district_code": "360514",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "360514:PMKVY Training Centre, Nalgonda",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda ITI",
+      "coordinate_status": "synthetic",
+      "district_code": "360514",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "360514:Nalgonda ITI",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda Women's Skill Hub",
+      "coordinate_status": "synthetic",
+      "district_code": "360514",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "360514:Nalgonda Women's Skill Hub",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    },
+    {
+      "centre_name": "Nalgonda District Skill Centre",
+      "coordinate_status": "synthetic",
+      "district_code": "360514",
+      "source_name": "05_seed_district_supply",
+      "source_record_id": "360514:Nalgonda District Skill Centre",
+      "source_version": "4ea0d68e7d4fd206",
+      "synthetic": true
+    }
+  ]
+}

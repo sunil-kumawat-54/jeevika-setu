@@ -1,0 +1,36 @@
+{
+  "provenance": {
+    "failure_reason": null,
+    "fallback_note": null,
+    "fetched_at": "2026-09-11T11:21:00.541330+00:00",
+    "http_status": null,
+    "mode": "live",
+    "notes": [
+      "Join coverage report consumed by docs/ingest-report.md"
+    ],
+    "pipeline": "03_join_qp_level",
+    "rows": 1,
+    "source_url": "derived",
+    "synthetic": false
+  },
+  "records": [
+    {
+      "courses_derived_from_register": true,
+      "fuzzy_threshold": 0.92,
+      "half_level_pct": 23.17,
+      "half_level_rows": 263,
+      "hours_inferred_level": 0,
+      "match_rate_is_tautological": true,
+      "match_rate_pct": 100.0,
+      "matched": 1135,
+      "register_assigned_level": 1135,
+      "strategies": {
+        "exact_qp_code": 1135
+      },
+      "total_courses": 1135,
+      "total_qualifications": 1170,
+      "unmatched": 0,
+      "with_nsqf_level": 1135
+    }
+  ]
+}

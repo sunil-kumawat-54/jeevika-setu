@@ -1,0 +1,36 @@
+# Secrets
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+out/
+.turbo/
+*.tsbuildinfo
+
+# Data / artifacts (seeds/*.json ARE committed - see RULE 3)
+seeds/raw/*.html
+seeds/raw/*.tmp
+models/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local runtime artifacts
+docs/latency-report.json
+scripts/.drill-tmp/
+scripts/_tmp/

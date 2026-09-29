@@ -1,0 +1,14 @@
+# Keep LF in everything that Linux containers execute or parse.
+* text=auto eol=lf
+*.sh   text eol=lf
+Makefile text eol=lf
+Dockerfile text eol=lf
+*.py   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.sql  text eol=lf
+*.png binary
+*.wav binary
+*.pdf binary
+*.xlsx binary

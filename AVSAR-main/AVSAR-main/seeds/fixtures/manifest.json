@@ -1,0 +1,88 @@
+{
+  "provenance": {
+    "failure_reason": null,
+    "fallback_note": "Mock speech fixtures. Transcripts are scripted, not recognised; the WAVs are generated 16 kHz mono tones, not recorded human speech. They exist so the full voice path runs offline with zero credentials (RULE 1). Real audio comes from a real provider via `make mock-off`.",
+    "fetched_at": "2026-09-11T12:48:41.493795+00:00",
+    "http_status": null,
+    "mode": "synthetic",
+    "notes": [],
+    "pipeline": "08_build_speech_fixtures",
+    "rows": 4,
+    "source_url": "derived from data/prompts/dialogue.*.json",
+    "synthetic": true
+  },
+  "records": [
+    {
+      "file": "hi.json",
+      "lang": "hi",
+      "steps": [
+        "aspiration",
+        "clarify",
+        "confirm_intent",
+        "consent",
+        "language_select",
+        "profile_age_band",
+        "profile_current_work",
+        "profile_district",
+        "profile_education",
+        "profile_gender",
+        "recommendation",
+        "summary"
+      ]
+    },
+    {
+      "file": "mr.json",
+      "lang": "mr",
+      "steps": [
+        "aspiration",
+        "clarify",
+        "confirm_intent",
+        "consent",
+        "language_select",
+        "profile_age_band",
+        "profile_current_work",
+        "profile_district",
+        "profile_education",
+        "profile_gender",
+        "recommendation",
+        "summary"
+      ]
+    },
+    {
+      "file": "te.json",
+      "lang": "te",
+      "steps": [
+        "aspiration",
+        "clarify",
+        "confirm_intent",
+        "consent",
+        "language_select",
+        "profile_age_band",
+        "profile_current_work",
+        "profile_district",
+        "profile_education",
+        "profile_gender",
+        "recommendation",
+        "summary"
+      ]
+    },
+    {
+      "file": "en.json",
+      "lang": "en",
+      "steps": [
+        "aspiration",
+        "clarify",
+        "confirm_intent",
+        "consent",
+        "language_select",
+        "profile_age_band",
+        "profile_current_work",
+        "profile_district",
+        "profile_education",
+        "profile_gender",
+        "recommendation",
+        "summary"
+      ]
+    }
+  ]
+}

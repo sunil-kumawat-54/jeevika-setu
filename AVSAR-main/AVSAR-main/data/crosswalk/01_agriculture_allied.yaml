@@ -1,0 +1,162 @@
+# AVSAR crosswalk — Agriculture & allied livelihoods
+#
+# GIA domains 1-5 and 7 of the illustrative list at
+# https://pmajay.dosje.gov.in/illustrative-list (research.md §2.4, = Annexure-I
+# of the May 2023 guidelines):
+#   1 Agriculture & Soil Conservation   2 Horticulture   3 Minor Irrigation
+#   4 Animal Husbandry                  5 Fisheries      7 Forestry / Ecology
+#
+# Every `qp_codes` value is a REAL qualification present in
+# seeds/kaushalverse_qualifications.json (NCVET Kaushalverse, fetched live).
+# Method and review protocol: docs/crosswalk-method.md.
+
+version: 1
+entries:
+  # ---------------------------------------------------------------- domain 1
+  - concept: tractor_operator
+    gia_domain: 1
+    status: reviewed
+    qp_codes: ["AM/Q04967", "AM/Q04905"]
+    notes: >-
+      The register carries the maintenance/mechanic side of tractor work rather
+      than a pure "Tractor Operator" driving role; both listed QPs are real and
+      sit in the agricultural machinery trade.
+    phrases:
+      hi: ["ट्रैक्टर चलाना", "ट्रैक्टर का काम", "ट्रैक्टर ड्राइवर बनना है", "खेती की मशीन का काम"]
+      mr: ["ट्रॅक्टर चालवणे", "ट्रॅक्टरचे काम", "शेती यंत्राचे काम"]
+      te: ["ట్రాక్టర్ నడపడం", "ట్రాక్టర్ పని", "వ్యవసాయ యంత్రాల పని"]
+      en: ["tractor operator", "tractor driving", "farm machinery work"]
+
+  - concept: soil_testing
+    gia_domain: 1
+    status: reviewed
+    qp_codes: ["AG/Q02836", "AG/Q04286"]
+    phrases:
+      hi: ["मिट्टी की जाँच", "मिट्टी परीक्षण का काम"]
+      mr: ["माती परीक्षण", "मातीची तपासणी"]
+      te: ["నేల పరీక్ష", "మట్టి పరీక్ష పని"]
+      en: ["soil testing", "soil and water conservation"]
+
+  - concept: organic_farming
+    gia_domain: 1
+    status: reviewed
+    qp_codes: ["AG/Q03355", "AG/Q05107", "AG/Q05108"]
+    phrases:
+      hi: ["जैविक खेती", "वर्मी कम्पोस्ट बनाना", "केंचुआ खाद", "मसाला की खेती"]
+      mr: ["सेंद्रिय शेती", "गांडूळ खत बनवणे", "मसाला पिकांची शेती"]
+      te: ["సేంద్రియ వ్యవసాయం", "వానపాము ఎరువు తయారీ", "మసాలా పంటల సాగు"]
+      en: ["organic farming", "vermicompost", "spice crop growing", "seed production"]
+
+  # ---------------------------------------------------------------- domain 2
+  - concept: gardening_nursery
+    gia_domain: 2
+    status: reviewed
+    qp_codes: ["AG/Q05069", "AG/Q03353", "RI/Q05373"]
+    phrases:
+      hi: ["बागवानी", "नर्सरी का काम", "माली का काम", "पौधे तैयार करना"]
+      mr: ["बागकाम", "रोपवाटिकेचे काम", "माळीचे काम"]
+      te: ["తోటపని", "నర్సరీ పని", "మొక్కల పెంపకం"]
+      en: ["gardening", "nursery raiser", "horticulture work", "landscape gardening"]
+
+  # ---------------------------------------------------------------- domain 3
+  - concept: irrigation_pump_operator
+    gia_domain: 3
+    status: reviewed
+    qp_codes: ["PL/Q03705", "ES/Q02631"]
+    phrases:
+      hi: ["पानी का पंप चलाना", "सिंचाई का काम", "बोरवेल पंप का काम"]
+      mr: ["पाण्याचा पंप चालवणे", "सिंचनाचे काम"]
+      te: ["నీటి పంపు నడపడం", "నీటిపారుదల పని"]
+      en: ["water pump operator", "irrigation work", "solar water pumping"]
+
+  # ---------------------------------------------------------------- domain 4
+  - concept: dairy
+    gia_domain: 4
+    status: reviewed
+    qp_codes: ["AG/Q04289", "FI/Q01396"]
+    notes: >-
+      The register's dairy roles sit at NSQF L5, above the capability ceiling of
+      a low-education beneficiary. The recommender's stretch-relaxation path
+      (PLAN.md §6 STEP 2) is what surfaces these, and it flags them as a stretch
+      rather than hiding the mismatch.
+    phrases:
+      hi: ["दूध डेयरी", "दूध का काम", "डेयरी खोलना है", "दूध की जाँच"]
+      mr: ["दूध डेअरी", "दुधाचे काम", "डेअरी सुरू करायची आहे"]
+      te: ["పాల డెయిరీ", "పాల పని", "డెయిరీ ప్రారంభించాలి"]
+      en: ["dairy", "milk business", "dairy processing", "milk testing"]
+
+  - concept: goatery
+    gia_domain: 4
+    status: reviewed
+    qp_codes: ["AG/Q05159"]
+    phrases:
+      hi: ["बकरी पालन", "बकरी का काम", "भेड़ पालन"]
+      mr: ["शेळीपालन", "शेळ्या पाळणे", "मेंढीपालन"]
+      te: ["మేకల పెంపకం", "గొర్రెల పెంపకం"]
+      en: ["goat farming", "goatery", "sheep rearing"]
+
+  - concept: piggery
+    gia_domain: 4
+    status: reviewed
+    qp_codes: ["AG/Q05071"]
+    phrases:
+      hi: ["सूअर पालन"]
+      mr: ["वराहपालन"]
+      te: ["పంది పెంపకం"]
+      en: ["piggery", "pig farming"]
+
+  - concept: poultry
+    gia_domain: 4
+    status: reviewed
+    qp_codes: []
+    gap_reason: >-
+      No poultry qualification exists anywhere in the NCVET Kaushalverse snapshot
+      this build ingested (verified: 0 matches for poultry/broiler/hatchery/layer
+      across all 1,170 approved Qualifications). The real PM-AJAY GIA catalogue
+      does list poultry roles, but the portal was serving its maintenance page
+      during ingestion — see docs/ingest-report.md. Mapping "murgi palan" to a
+      near-miss livestock QP would make AVSAR confidently recommend the wrong
+      trade, so the concept is declared as a GAP instead: the recommender falls
+      through to semantic recall and then to refusal/handoff, and the officer
+      dashboard's gap panel flags it as demand with no local supply. Restored
+      automatically once pipeline 01 can reach the live catalogue.
+    phrases:
+      hi: ["मुर्गी पालन", "मुर्गी फार्म", "अंडे का काम"]
+      mr: ["कुक्कुटपालन", "कोंबडी पालन"]
+      te: ["కోళ్ల పెంపకం", "కోడి ఫారం"]
+      en: ["poultry farming", "poultry", "broiler farm"]
+
+  - concept: beekeeper
+    gia_domain: 4
+    status: reviewed
+    qp_codes: ["ES/Q01753"]
+    notes: >-
+      The only apiculture QP in the register is framed as Non-Timber Forest
+      Produce (wild bee), which is why this concept also surfaces under forestry.
+    phrases:
+      hi: ["मधुमक्खी पालन", "शहद का काम", "मधु उत्पादन"]
+      mr: ["मधमाशी पालन", "मधाचे काम"]
+      te: ["తేనెటీగల పెంపకం", "తేనె ఉత్పత్తి"]
+      en: ["beekeeping", "apiculture", "honey production"]
+
+  # ---------------------------------------------------------------- domain 5
+  - concept: fish_farming
+    gia_domain: 5
+    status: reviewed
+    qp_codes: ["AG/Q03351", "AG/Q04290", "AG/Q01263"]
+    phrases:
+      hi: ["मछली पालन", "मछली का काम", "तालाब में मछली"]
+      mr: ["मत्स्यपालन", "माशांचे काम"]
+      te: ["చేపల పెంపకం", "చేపల పని"]
+      en: ["fish farming", "aquaculture", "fisheries"]
+
+  # ---------------------------------------------------------------- domain 7
+  - concept: ntfp_forestry
+    gia_domain: 7
+    status: reviewed
+    qp_codes: ["ES/Q01752", "ES/Q01753", "RI/Q05375"]
+    phrases:
+      hi: ["जंगल से वनोपज", "तेंदूपत्ता का काम", "वन उपज का काम"]
+      mr: ["वनोपज गोळा करणे", "जंगलातील कामे"]
+      te: ["అటవీ ఉత్పత్తుల పని", "అడవి ఉత్పత్తుల సేకరణ"]
+      en: ["non timber forest produce", "forest produce collection", "plantation work"]

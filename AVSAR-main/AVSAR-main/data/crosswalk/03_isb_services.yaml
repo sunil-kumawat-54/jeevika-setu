@@ -1,0 +1,214 @@
+# AVSAR crosswalk — Industry, Service & Business (ISB)
+#
+# GIA domain 9 of the illustrative list (research.md §2.4). The portal describes
+# ISB as "21 sub-items including manufacturing units, IT/ITeS services, Media &
+# Entertainment, Healthcare, Banking & Financial Services, Beauty parlour,
+# Plumbing, Auto repair, Bakery, and other sustainable units as per local needs".
+#
+# This is the densest file because it carries the trades PLAN.md §5.2 names for
+# the demo: tailoring/garment, beauty & wellness, electrician/plumbing, mobile
+# repair, healthcare attendant, IT/ITeS data-entry, retail.
+#
+# Every qp_code is a real NCVET qualification in
+# seeds/kaushalverse_qualifications.json.
+
+version: 1
+entries:
+  - concept: tailoring
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["AP/Q01866", "AP/Q01868", "AP/Q01867", "AP/Q03425"]
+    notes: >-
+      The demo's flagship path (PLAN.md §10 step 2: "main silai ka kaam seekhna
+      chahti hoon"). "Self Employed Tailor" (AP/Q01868) is the QP that pairs with
+      the GIA loan-assistance story because it is a self-employment role.
+    phrases:
+      hi:
+        - "सिलाई"
+        - "सिलाई का काम"
+        - "कपड़ा सिलना"
+        - "दर्जी का काम"
+        - "सिलाई सीखना चाहती हूँ"
+        - "मैं सिलाई का काम सीखना चाहती हूँ"
+        - "कपड़े सिलने का काम"
+        - "बुटीक खोलना है"
+      mr:
+        - "शिवणकाम"
+        - "कपडे शिवणे"
+        - "शिंप्याचे काम"
+        - "मला शिवणकाम शिकायचे आहे"
+        - "बुटीक सुरू करायचे आहे"
+      te:
+        - "కుట్టు పని"
+        - "బట్టలు కుట్టడం"
+        - "దర్జీ పని"
+        - "నాకు కుట్టు పని నేర్చుకోవాలని ఉంది"
+        - "బోటిక్ ప్రారంభించాలి"
+      en:
+        - "tailoring"
+        - "sewing"
+        - "stitching clothes"
+        - "self employed tailor"
+        - "garment making"
+        - "boutique"
+
+  - concept: beauty
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["BW/Q02858", "BW/Q04315", "BW/Q04945", "BW/Q03601"]
+    phrases:
+      hi:
+        - "ब्यूटी पार्लर"
+        - "ब्यूटी पार्लर का कोर्स"
+        - "ब्यूटीशियन बनना है"
+        - "मेकअप का काम"
+        - "बाल काटने का काम"
+      mr:
+        - "ब्युटी पार्लर"
+        - "ब्युटीशियन बनायचे आहे"
+        - "मेकअपचे काम"
+        - "ब्युटी पार्लरचा कोर्स करायचा आहे"
+      te:
+        - "బ్యూటీ పార్లర్"
+        - "బ్యూటీషియన్ కావాలి"
+        - "మేకప్ పని"
+        - "బ్యూటీ పార్లర్ కోర్సు చేయాలి"
+      en:
+        - "beauty parlour"
+        - "beautician"
+        - "cosmetology"
+        - "salon work"
+
+  - concept: electrician
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["CO/Q03950", "CO/Q05300", "CO/Q03951", "CG/Q05303"]
+    phrases:
+      hi:
+        - "बिजली का काम"
+        - "इलेक्ट्रिशियन"
+        - "बिजली मिस्त्री"
+        - "वायरिंग का काम"
+        - "मोटर रिपेयर"
+      mr:
+        - "वीजकाम"
+        - "इलेक्ट्रिशियन"
+        - "वायरिंगचे काम"
+      te:
+        - "విద్యుత్ పని"
+        - "ఎలక్ట్రీషియన్"
+        - "వైరింగ్ పని"
+      en:
+        - "electrician"
+        - "electrical wiring"
+        - "motor rewinding"
+
+  - concept: plumbing
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["PB/Q05160", "PB/Q04974", "PL/Q03440", "PL/Q03441"]
+    phrases:
+      hi: ["प्लंबर का काम", "नल ठीक करना", "पाइप का काम", "प्लंबिंग"]
+      mr: ["प्लंबिंगचे काम", "नळाचे काम", "प्लंबरचे काम"]
+      te: ["ప్లంబింగ్ పని", "కుళాయి పని", "పైపుల పని"]
+      en: ["plumbing", "plumber", "pipe fitting"]
+
+  - concept: mobile_repair
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["EH/Q05453", "EL/Q04848"]
+    phrases:
+      hi: ["मोबाइल रिपेयर", "मोबाइल ठीक करना", "मोबाइल रिपेयरिंग सीखनी है", "फोन ठीक करना"]
+      mr: ["मोबाईल दुरुस्ती", "मोबाईल रिपेअरिंग"]
+      te: ["మొబైల్ రిపేర్", "ఫోన్ బాగుచేయడం"]
+      en: ["mobile repair", "mobile phone repair", "smartphone technician"]
+
+  - concept: healthcare_attendant
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["HC/Q05094", "HM/Q04757", "HM/Q05038", "TH/Q02461"]
+    phrases:
+      hi: ["अस्पताल में सहायक का काम", "मरीज़ की देखभाल", "नर्सिंग सहायक", "बुज़ुर्गों की देखभाल"]
+      mr: ["रुग्णसेवेचे काम", "रुग्ण सहाय्यक", "वृद्धांची काळजी"]
+      te: ["ఆసుపత్రిలో సహాయకురాలిగా పని చేయాలి", "రోగుల సంరక్షణ", "వృద్ధుల సంరక్షణ"]
+      en: ["healthcare attendant", "home health aide", "caregiver", "patient care"]
+
+  - concept: data_entry
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["OA/Q02520", "IT/Q03520", "IT/Q03646"]
+    phrases:
+      hi: ["डाटा एंट्री", "कंप्यूटर का काम", "ऑफिस असिस्टेंट", "टाइपिंग का काम"]
+      mr: ["डेटा एंट्री", "संगणकाचे काम", "ऑफिस असिस्टंट"]
+      te: ["డేటా ఎంట్రీ పని నేర్చుకోవాలి", "కంప్యూటర్ పని", "ఆఫీస్ అసిస్టెంట్"]
+      en: ["data entry", "computer operator", "office assistant", "it helpdesk"]
+
+  - concept: retail
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["OR/Q03320", "OR/Q03322", "OR/Q03321", "OR/Q04253"]
+    phrases:
+      hi: ["दुकान का काम", "दुकान पर काम करना", "बिक्री का काम", "कैशियर का काम"]
+      mr: ["दुकानातील काम", "विक्रीचे काम", "कॅशियरचे काम"]
+      te: ["దుకాణం పని", "అమ్మకాల పని", "క్యాషియర్ పని"]
+      en: ["retail", "shop assistant", "retail sales", "cashier"]
+
+  - concept: welding
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["CG/Q05272", "CG/Q05077", "CG/Q03939"]
+    phrases:
+      hi: ["वेल्डिंग का काम", "वेल्डर बनना है", "लोहे की जोड़ाई"]
+      mr: ["वेल्डिंगचे काम", "वेल्डर बनायचे आहे"]
+      te: ["వెల్డింగ్ పని", "వెల్డర్ కావాలి"]
+      en: ["welding", "welder", "arc welding"]
+
+  - concept: masonry
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["CH/Q04938", "CO/Q05306", "CO/Q03959"]
+    phrases:
+      hi: ["राजमिस्त्री का काम", "मिस्त्री बनना है", "टाइल लगाने का काम"]
+      mr: ["गवंडीकाम", "मिस्त्रीचे काम", "टाइल बसवण्याचे काम"]
+      te: ["తాపీ పని", "మేస్త్రీ పని", "టైల్స్ వేసే పని"]
+      en: ["masonry", "mason", "tiling", "building construction"]
+
+  - concept: driver
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["AU/Q02944", "AU/Q03595", "TLW/Q04956"]
+    phrases:
+      hi: ["ड्राइवर बनना है", "गाड़ी चलाना", "ऑटो चलाना"]
+      mr: ["ड्रायव्हर बनायचे आहे", "गाडी चालवणे", "रिक्षा चालवणे"]
+      te: ["డ్రైవర్ కావాలి", "వాహనం నడపడం", "ఆటో నడపడం"]
+      en: ["driver", "driving", "auto rickshaw driver"]
+
+  - concept: auto_repair
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["AM/Q05050", "AM/Q04952"]
+    phrases:
+      hi: ["गाड़ी की मरम्मत", "बाइक ठीक करना", "मोटर मैकेनिक"]
+      mr: ["गाडी दुरुस्ती", "दुचाकी दुरुस्ती", "मेकॅनिकचे काम"]
+      te: ["వాహన మరమ్మతు", "బైక్ రిపేర్", "మెకానిక్ పని"]
+      en: ["auto repair", "two wheeler mechanic", "motor vehicle mechanic"]
+
+  - concept: solar_technician
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["ES/Q02632", "GJ/Q05315"]
+    phrases:
+      hi: ["सोलर पैनल का काम", "सौर ऊर्जा का काम"]
+      mr: ["सोलर पॅनलचे काम", "सौर ऊर्जेचे काम"]
+      te: ["సోలార్ ప్యానెల్ పని", "సౌర విద్యుత్ పని"]
+      en: ["solar panel installation", "solar pv helper"]
+
+  - concept: computer_hardware
+    gia_domain: 9
+    status: reviewed
+    qp_codes: ["EH/Q02853", "EL/Q04859"]
+    phrases:
+      hi: ["कंप्यूटर रिपेयर", "कंप्यूटर हार्डवेयर का काम"]
+      mr: ["संगणक दुरुस्ती"]
+      te: ["కంప్యూటర్ రిపేర్"]
+      en: ["computer repair", "computer technician", "hardware technician"]

@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.env
+*.log
+.DS_Store

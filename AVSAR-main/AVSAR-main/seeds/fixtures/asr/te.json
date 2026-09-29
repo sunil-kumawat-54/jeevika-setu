@@ -1,0 +1,184 @@
+{
+  "clarify_threshold": 0.55,
+  "dialogue_steps_without_fixture": [],
+  "lang": "te",
+  "note": "Scripted ASR fixtures for VOICE_PROVIDER=mock. Transcripts are the answers a beneficiary gives at each dialogue step; no inference is performed and no network or credential is required.",
+  "steps": {
+    "aspiration": {
+      "confidence": 0.86,
+      "text": "నాకు కుట్టు పని నేర్చుకోవాలని ఉంది",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "gap": {
+          "confidence": 0.86,
+          "text": "కోళ్ల పెంపకం ప్రారంభించాలి"
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "నాకు కుట్టు పని నేర్చుకోవాలని ఉంది"
+        },
+        "unknown": {
+          "confidence": 0.86,
+          "text": "నేను వ్యోమగామి కావాలనుకుంటున్నాను"
+        }
+      }
+    },
+    "clarify": {
+      "confidence": 0.86,
+      "text": "కుట్టు పని",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "కుట్టు పని"
+        }
+      }
+    },
+    "confirm_intent": {
+      "confidence": 0.86,
+      "text": "అవును, సరైనదే",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "అవును, సరైనదే"
+        }
+      }
+    },
+    "consent": {
+      "confidence": 0.86,
+      "text": "అవును, ముందుకు వెళ్లండి",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "అవును, ముందుకు వెళ్లండి"
+        }
+      }
+    },
+    "language_select": {
+      "confidence": 0.86,
+      "text": "తెలుగు",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "తెలుగు"
+        }
+      }
+    },
+    "profile_age_band": {
+      "confidence": 0.86,
+      "text": "పద్దెనిమిది నుండి ముప్పై",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "పద్దెనిమిది నుండి ముప్పై"
+        }
+      }
+    },
+    "profile_current_work": {
+      "confidence": 0.86,
+      "text": "ప్రస్తుతం పని లేదు",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "ప్రస్తుతం పని లేదు"
+        }
+      }
+    },
+    "profile_district": {
+      "confidence": 0.86,
+      "text": "నల్గొండ",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "నల్గొండ"
+        }
+      }
+    },
+    "profile_education": {
+      "confidence": 0.86,
+      "text": "ఎనిమిది నుండి పది",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "ఎనిమిది నుండి పది"
+        }
+      }
+    },
+    "profile_gender": {
+      "confidence": 0.86,
+      "text": "మహిళ",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "మహిళ"
+        }
+      }
+    },
+    "recommendation": {
+      "confidence": 0.86,
+      "text": "మళ్లీ వినండి",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "మళ్లీ వినండి"
+        }
+      }
+    },
+    "summary": {
+      "confidence": 0.86,
+      "text": "ముగించు",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "ముగించు"
+        }
+      }
+    }
+  }
+}

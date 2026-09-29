@@ -1,0 +1,310 @@
+{
+  "lang": "hi",
+  "name": "हिंदी",
+  "name_en": "Hindi",
+  "dir": "ltr",
+  "script": "Devanagari",
+  "_doc": "Spoken prompts as DATA (PLAN.md §5.2). Tone rules from PLAN.md §7: short, one clause per sentence, respectful आप, never ग्राहक, no jargon — 'NSQF level 3' is spoken as '3 स्तर का कौशल कोर्स'. Max 4 options spoken at once (RULE 7).",
+  "consent": {
+    "playback_ref": "dialogue.hi.json#consent.line",
+    "line": "आपकी जानकारी सिर्फ़ स्किल सलाह और योजना लिंकिंग के लिए रिकॉर्ड होगी। आप कभी भी 'बंद करो' कहकर हट सकते हैं।",
+    "detail": "हम आपका नाम नहीं पूछेंगे। फ़ोन नंबर देना ज़रूरी नहीं है।",
+    "question": "क्या हम आगे बढ़ें?",
+    "accept": "हाँ, आगे बढ़ें",
+    "decline": "नहीं",
+    "replay": "फिर से सुनें",
+    "granted_ack": "धन्यवाद। अब पाँच छोटे सवाल पूछूँगा।",
+    "declined_ack": "ठीक है। आपकी कोई जानकारी नहीं रखी गई। धन्यवाद।"
+  },
+  "steps": {
+    "language_select": {
+      "prompt": "अपनी भाषा चुनिए।",
+      "short": "भाषा",
+      "help": "आप बोलकर या बटन दबाकर चुन सकते हैं।"
+    },
+    "profile_district": {
+      "prompt": "आप किस ज़िले में रहते हैं?",
+      "short": "ज़िला",
+      "help": "ज़िले का नाम बोलिए या सूची में से चुनिए।"
+    },
+    "profile_age_band": {
+      "prompt": "आपकी उम्र किस दायरे में है?",
+      "short": "उम्र",
+      "help": "कोई एक चुनिए।"
+    },
+    "profile_gender": {
+      "prompt": "आप महिला हैं, पुरुष हैं, या अन्य?",
+      "short": "लिंग",
+      "help": "यह महिलाओं के लिए तय हिस्सेदारी देखने के लिए पूछा जाता है।"
+    },
+    "profile_education": {
+      "prompt": "आपने कहाँ तक पढ़ाई की है?",
+      "short": "पढ़ाई",
+      "help": "इससे तय होता है कौन सा कोर्स आपके लिए सही रहेगा।"
+    },
+    "profile_current_work": {
+      "prompt": "अभी आप क्या काम करते हैं?",
+      "short": "काम",
+      "help": "कोई एक चुनिए।"
+    },
+    "aspiration": {
+      "prompt": "आप क्या काम सीखना चाहते हैं? बोलकर बताइए।",
+      "short": "आपकी इच्छा",
+      "help": "जैसे — सिलाई, ब्यूटी पार्लर, मोबाइल रिपेयर।",
+      "record_hint": "माइक दबाकर बोलिए। पंद्रह सेकंड तक।"
+    },
+    "clarify": {
+      "prompt": "मुझे ठीक से समझ नहीं आया।",
+      "short": "दोबारा",
+      "help": "क्या आप इनमें से किसी की बात कर रहे हैं?"
+    },
+    "confirm_intent": {
+      "prompt": "समझ गया — {concept}। क्या यह सही है?",
+      "short": "पुष्टि",
+      "help": "हाँ कहिए या बदलिए।"
+    },
+    "recommendation": {
+      "prompt": "आपके लिए यह कोर्स सबसे सही लगता है।",
+      "short": "सुझाव",
+      "help": "आप इसे फिर से सुन सकते हैं या दूसरे विकल्प देख सकते हैं।"
+    },
+    "summary": {
+      "prompt": "यह रहा आपका पूरा ब्यौरा।",
+      "short": "सारांश",
+      "help": "आप इसे पढ़ सकते हैं या अधिकारी को दिखा सकते हैं।"
+    },
+    "menu_mode": {
+      "prompt": "आवाज़ साफ़ नहीं आ रही। अब बटन से चुनिए।",
+      "short": "बटन मोड",
+      "help": "हर विकल्प के आगे नंबर दबाइए।"
+    },
+    "end": {
+      "prompt": "धन्यवाद। आपका दिन शुभ हो।",
+      "short": "समाप्त",
+      "help": "आप फिर से शुरू कर सकते हैं।"
+    }
+  },
+  "options": {
+    "age_band": [
+      {
+        "value": "under_18",
+        "label": "18 साल से कम",
+        "icon": "child"
+      },
+      {
+        "value": "18_30",
+        "label": "18 से 30 साल",
+        "icon": "youth"
+      },
+      {
+        "value": "30_45",
+        "label": "30 से 45 साल",
+        "icon": "adult"
+      },
+      {
+        "value": "45_plus",
+        "label": "45 साल से ज़्यादा",
+        "icon": "elder"
+      }
+    ],
+    "gender": [
+      {
+        "value": "female",
+        "label": "महिला",
+        "icon": "female"
+      },
+      {
+        "value": "male",
+        "label": "पुरुष",
+        "icon": "male"
+      },
+      {
+        "value": "other",
+        "label": "अन्य",
+        "icon": "other"
+      }
+    ],
+    "edu_level": [
+      {
+        "value": "none",
+        "label": "पढ़ाई नहीं की",
+        "icon": "none"
+      },
+      {
+        "value": "up_to_5th",
+        "label": "पाँचवीं तक",
+        "icon": "book1"
+      },
+      {
+        "value": "5th_8th",
+        "label": "पाँचवीं से आठवीं",
+        "icon": "book2"
+      },
+      {
+        "value": "8th_10th",
+        "label": "आठवीं से दसवीं",
+        "icon": "book3"
+      },
+      {
+        "value": "10th_12th",
+        "label": "दसवीं से बारहवीं",
+        "icon": "book4"
+      },
+      {
+        "value": "grad_plus",
+        "label": "स्नातक या उससे ऊपर",
+        "icon": "cap"
+      }
+    ],
+    "current_work": [
+      {
+        "value": "unemployed",
+        "label": "कोई काम नहीं",
+        "icon": "search"
+      },
+      {
+        "value": "farm_labour",
+        "label": "खेती मज़दूरी",
+        "icon": "farm"
+      },
+      {
+        "value": "artisan",
+        "label": "कारीगरी",
+        "icon": "craft"
+      },
+      {
+        "value": "shg_member",
+        "label": "स्वयं सहायता समूह",
+        "icon": "group"
+      },
+      {
+        "value": "small_trade",
+        "label": "छोटा व्यापार",
+        "icon": "shop"
+      },
+      {
+        "value": "other",
+        "label": "कुछ और",
+        "icon": "other"
+      }
+    ],
+    "yes_no": [
+      {
+        "value": "yes",
+        "label": "हाँ",
+        "icon": "check"
+      },
+      {
+        "value": "no",
+        "label": "नहीं",
+        "icon": "cross"
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "concept": "tailoring",
+      "label": "सिलाई",
+      "icon": "tailoring"
+    },
+    {
+      "concept": "beauty",
+      "label": "ब्यूटी पार्लर",
+      "icon": "beauty"
+    },
+    {
+      "concept": "electrician",
+      "label": "बिजली का काम",
+      "icon": "electrician"
+    },
+    {
+      "concept": "mobile_repair",
+      "label": "मोबाइल रिपेयर",
+      "icon": "mobile"
+    },
+    {
+      "concept": "dairy",
+      "label": "दूध डेयरी",
+      "icon": "dairy"
+    },
+    {
+      "concept": "poultry",
+      "label": "मुर्गी पालन",
+      "icon": "poultry"
+    },
+    {
+      "concept": "food_processing",
+      "label": "खाद्य प्रसंस्करण",
+      "icon": "food"
+    },
+    {
+      "concept": "retail",
+      "label": "दुकान का काम",
+      "icon": "retail"
+    }
+  ],
+  "recommendation": {
+    "primary_intro": "आपके लिए सबसे सही कोर्स है {course}।",
+    "level_phrase": "यह {level} स्तर का कौशल कोर्स है।",
+    "duration_phrase": "इसकी अवधि {hours} घंटे है।",
+    "centre_phrase": "आपके ज़िले में {seats} सीटें उपलब्ध हैं।",
+    "no_centre_phrase": "आपके ज़िले में अभी सीट की जानकारी नहीं है।",
+    "assistance_phrase": "इसके बाद अपना काम शुरू करने के लिए आपको ऋण सहायता मिल सकती है — {assistance}।",
+    "women_note": "महिलाओं के लिए कम से कम तीस प्रतिशत सीटें तय हैं।",
+    "alternatives_intro": "दो और विकल्प भी हैं।",
+    "next_step": "अपने ज़िला कौशल केंद्र में इस कोर्स के बारे में पूछिए।",
+    "stretch_note": "यह कोर्स आपकी पढ़ाई से थोड़ा ऊपर का है, पर आप कर सकते हैं।",
+    "digit_by_digit": "पचास हज़ार यानी पाँच-शून्य-शून्य-शून्य-शून्य।"
+  },
+  "menu": {
+    "replay": "फिर सुनें",
+    "alternatives": "विकल्प सुनें",
+    "sms": "SMS भेजें",
+    "finish": "खत्म",
+    "back": "पीछे",
+    "more": "और विकल्प",
+    "repeat_number": "नंबर दोहराइए"
+  },
+  "summary": {
+    "title": "आपका कौशल सुझाव",
+    "course_label": "कोर्स",
+    "level_label": "स्तर",
+    "duration_label": "अवधि",
+    "sector_label": "क्षेत्र",
+    "district_label": "ज़िला",
+    "assistance_label": "सहायता",
+    "next_step_label": "अगला कदम",
+    "disclaimer": "यह AI सलाह है। पक्की जानकारी के लिए अपने अधिकारी से पुष्टि करें।",
+    "sms_prefix": "AVSAR सुझाव:"
+  },
+  "errors": {
+    "asr_empty": "माफ़ कीजिए, आवाज़ साफ़ नहीं आई। आप बटन दबाकर भी बता सकते हैं।",
+    "network_error": "नेटवर्क में दिक्कत है। आप थोड़ी देर बाद फिर कोशिश करें।",
+    "db_unavailable": "हमारी जानकारी अभी उपलब्ध नहीं है। थोड़ी देर में फिर कोशिश कीजिए।",
+    "consent_required": "आगे बढ़ने के लिए पहले आपकी सहमति ज़रूरी है।",
+    "session_not_found": "यह बातचीत नहीं मिली। कृपया नई शुरुआत करें।",
+    "out_of_scope": "यह जानकारी मेरे पास नहीं है। मैं आपको अधिकारी से जोड़ सकता हूँ।",
+    "provider_unavailable": "आवाज़ सेवा अभी उपलब्ध नहीं है, हम लिखकर बता रहे हैं।",
+    "rate_limited": "बहुत तेज़ कोशिश हो रही है। एक मिनट रुककर फिर बोलिए।",
+    "no_match": "आपकी बात से मिलता कोर्स नहीं मिला। मैं आपको अधिकारी से जोड़ सकता हूँ।"
+  },
+  "ui": {
+    "app_name": "अवसर",
+    "tagline": "अपनी बात बोलिए, अपना कोर्स पाइए",
+    "start": "बात शुरू करें",
+    "listening": "सुन रहा हूँ…",
+    "processing": "सोच रहा हूँ…",
+    "speaking": "बोल रहा हूँ…",
+    "tap_to_speak": "बोलने के लिए दबाइए",
+    "tap_to_stop": "रोकने के लिए दबाइए",
+    "progress": "चरण {current} / {total}",
+    "confidence_high": "साफ़ सुनाई दिया",
+    "confidence_medium": "थोड़ा अस्पष्ट",
+    "confidence_low": "ठीक से सुनाई नहीं दिया",
+    "skip": "छोड़ें",
+    "change": "बदलें",
+    "synthetic_badge": "नमूना डेटा",
+    "beta_notice": "यह एक बीटा AI सहायक है। गलती हो सकती है — अधिकारी से पुष्टि करें।",
+    "offline_notice": "इंटरनेट नहीं है — आपकी बातचीत बिना नेट के चल रही है।"
+  }
+}

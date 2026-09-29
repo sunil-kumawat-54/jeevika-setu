@@ -1,0 +1,184 @@
+{
+  "clarify_threshold": 0.55,
+  "dialogue_steps_without_fixture": [],
+  "lang": "mr",
+  "note": "Scripted ASR fixtures for VOICE_PROVIDER=mock. Transcripts are the answers a beneficiary gives at each dialogue step; no inference is performed and no network or credential is required.",
+  "steps": {
+    "aspiration": {
+      "confidence": 0.86,
+      "text": "मला शिवणकाम शिकायचे आहे",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "gap": {
+          "confidence": 0.86,
+          "text": "कुक्कुटपालन सुरू करायचे आहे"
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "मला शिवणकाम शिकायचे आहे"
+        },
+        "unknown": {
+          "confidence": 0.86,
+          "text": "मला अंतराळवीर व्हायचे आहe"
+        }
+      }
+    },
+    "clarify": {
+      "confidence": 0.86,
+      "text": "शिवणकाम",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "शिवणकाम"
+        }
+      }
+    },
+    "confirm_intent": {
+      "confidence": 0.86,
+      "text": "होय, बरोबर आहे",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "होय, बरोबर आहे"
+        }
+      }
+    },
+    "consent": {
+      "confidence": 0.86,
+      "text": "होय, पुढे चला",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "होय, पुढे चला"
+        }
+      }
+    },
+    "language_select": {
+      "confidence": 0.86,
+      "text": "मराठी",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "मराठी"
+        }
+      }
+    },
+    "profile_age_band": {
+      "confidence": 0.86,
+      "text": "अठरा ते तीस वर्षे",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "अठरा ते तीस वर्षे"
+        }
+      }
+    },
+    "profile_current_work": {
+      "confidence": 0.86,
+      "text": "सध्या काम नाही",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "सध्या काम नाही"
+        }
+      }
+    },
+    "profile_district": {
+      "confidence": 0.86,
+      "text": "लातूर",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "लातूर"
+        }
+      }
+    },
+    "profile_education": {
+      "confidence": 0.86,
+      "text": "आठवी ते दहावी",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "आठवी ते दहावी"
+        }
+      }
+    },
+    "profile_gender": {
+      "confidence": 0.86,
+      "text": "महिला",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "महिला"
+        }
+      }
+    },
+    "recommendation": {
+      "confidence": 0.86,
+      "text": "पुन्हा ऐका",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "पुन्हा ऐका"
+        }
+      }
+    },
+    "summary": {
+      "confidence": 0.86,
+      "text": "संपले",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "संपले"
+        }
+      }
+    }
+  }
+}

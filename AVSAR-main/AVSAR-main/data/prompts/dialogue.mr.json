@@ -1,0 +1,310 @@
+{
+  "lang": "mr",
+  "name": "मराठी",
+  "name_en": "Marathi",
+  "dir": "ltr",
+  "script": "Devanagari",
+  "_doc": "Spoken prompts as DATA (PLAN.md §5.2). Tone rules from PLAN.md §7: short, one clause per sentence, respectful तुम्ही, no jargon — 'NSQF level 3' is spoken as '3 स्तराचा कौशल्य अभ्यासक्रम'. Max 4 options spoken at once (RULE 7).",
+  "consent": {
+    "playback_ref": "dialogue.mr.json#consent.line",
+    "line": "तुमची माहिती फक्त कौशल्य सल्ला आणि योजना जोडणीसाठी नोंदवली जाईल. तुम्ही कधीही 'बंद करा' म्हणून थांबू शकता.",
+    "detail": "आम्ही तुमचे नाव विचारणार नाही. फोन नंबर देणे आवश्यक नाही.",
+    "question": "आपण पुढे जाऊया का?",
+    "accept": "होय, पुढे चला",
+    "decline": "नाही",
+    "replay": "पुन्हा ऐका",
+    "granted_ack": "धन्यवाद. आता पाच छोटे प्रश्न विचारतो.",
+    "declined_ack": "ठीक आहे. तुमची कोणतीही माहिती ठेवलेली नाही. धन्यवाद."
+  },
+  "steps": {
+    "language_select": {
+      "prompt": "तुमची भाषा निवडा.",
+      "short": "भाषा",
+      "help": "तुम्ही बोलून किंवा बटण दाबून निवडू शकता."
+    },
+    "profile_district": {
+      "prompt": "तुम्ही कोणत्या जिल्ह्यात राहता?",
+      "short": "जिल्हा",
+      "help": "जिल्ह्याचे नाव सांगा किंवा यादीतून निवडा."
+    },
+    "profile_age_band": {
+      "prompt": "तुमचे वय कोणत्या गटात आहे?",
+      "short": "वय",
+      "help": "एक पर्याय निवडा."
+    },
+    "profile_gender": {
+      "prompt": "तुम्ही महिला आहात, पुरुष आहात, की इतर?",
+      "short": "लिंग",
+      "help": "महिलांसाठी ठरलेला वाटा पाहण्यासाठी हे विचारले जाते."
+    },
+    "profile_education": {
+      "prompt": "तुमचे शिक्षण किती झाले आहे?",
+      "short": "शिक्षण",
+      "help": "यावरून कोणता अभ्यासक्रम योग्य ठरेल हे ठरते."
+    },
+    "profile_current_work": {
+      "prompt": "सध्या तुम्ही कोणते काम करता?",
+      "short": "काम",
+      "help": "एक पर्याय निवडा."
+    },
+    "aspiration": {
+      "prompt": "तुम्हाला कोणते काम शिकायचे आहे? बोलून सांगा.",
+      "short": "तुमची इच्छा",
+      "help": "उदाहरणार्थ — शिवणकाम, ब्युटी पार्लर, मोबाईल दुरुस्ती.",
+      "record_hint": "माईक दाबून बोला. पंधरा सेकंदांपर्यंत."
+    },
+    "clarify": {
+      "prompt": "मला नीट समजले नाही.",
+      "short": "पुन्हा",
+      "help": "तुम्ही यापैकी कशाबद्दल बोलत आहात का?"
+    },
+    "confirm_intent": {
+      "prompt": "समजले — {concept}. हे बरोबर आहे का?",
+      "short": "खात्री",
+      "help": "होय म्हणा किंवा बदला."
+    },
+    "recommendation": {
+      "prompt": "तुमच्यासाठी हा अभ्यासक्रम सर्वात योग्य वाटतो.",
+      "short": "सूचना",
+      "help": "तुम्ही तो पुन्हा ऐकू शकता किंवा इतर पर्याय पाहू शकता."
+    },
+    "summary": {
+      "prompt": "हा तुमचा संपूर्ण तपशील.",
+      "short": "सारांश",
+      "help": "तुम्ही तो वाचू शकता किंवा अधिकाऱ्याला दाखवू शकता."
+    },
+    "menu_mode": {
+      "prompt": "आवाज स्पष्ट येत नाही. आता बटणाने निवडा.",
+      "short": "बटण मोड",
+      "help": "प्रत्येक पर्यायासमोरचा क्रमांक दाबा."
+    },
+    "end": {
+      "prompt": "धन्यवाद. तुमचा दिवस चांगला जावो.",
+      "short": "समाप्त",
+      "help": "तुम्ही पुन्हा सुरुवात करू शकता."
+    }
+  },
+  "options": {
+    "age_band": [
+      {
+        "value": "under_18",
+        "label": "18 वर्षांपेक्षा कमी",
+        "icon": "child"
+      },
+      {
+        "value": "18_30",
+        "label": "18 ते 30 वर्षे",
+        "icon": "youth"
+      },
+      {
+        "value": "30_45",
+        "label": "30 ते 45 वर्षे",
+        "icon": "adult"
+      },
+      {
+        "value": "45_plus",
+        "label": "45 वर्षांपेक्षा जास्त",
+        "icon": "elder"
+      }
+    ],
+    "gender": [
+      {
+        "value": "female",
+        "label": "महिला",
+        "icon": "female"
+      },
+      {
+        "value": "male",
+        "label": "पुरुष",
+        "icon": "male"
+      },
+      {
+        "value": "other",
+        "label": "इतर",
+        "icon": "other"
+      }
+    ],
+    "edu_level": [
+      {
+        "value": "none",
+        "label": "शिक्षण घेतले नाही",
+        "icon": "none"
+      },
+      {
+        "value": "up_to_5th",
+        "label": "पाचवीपर्यंत",
+        "icon": "book1"
+      },
+      {
+        "value": "5th_8th",
+        "label": "पाचवी ते आठवी",
+        "icon": "book2"
+      },
+      {
+        "value": "8th_10th",
+        "label": "आठवी ते दहावी",
+        "icon": "book3"
+      },
+      {
+        "value": "10th_12th",
+        "label": "दहावी ते बारावी",
+        "icon": "book4"
+      },
+      {
+        "value": "grad_plus",
+        "label": "पदवी किंवा त्यापुढे",
+        "icon": "cap"
+      }
+    ],
+    "current_work": [
+      {
+        "value": "unemployed",
+        "label": "काम नाही",
+        "icon": "search"
+      },
+      {
+        "value": "farm_labour",
+        "label": "शेतमजुरी",
+        "icon": "farm"
+      },
+      {
+        "value": "artisan",
+        "label": "कारागिरी",
+        "icon": "craft"
+      },
+      {
+        "value": "shg_member",
+        "label": "बचत गट सदस्य",
+        "icon": "group"
+      },
+      {
+        "value": "small_trade",
+        "label": "छोटा व्यवसाय",
+        "icon": "shop"
+      },
+      {
+        "value": "other",
+        "label": "इतर काही",
+        "icon": "other"
+      }
+    ],
+    "yes_no": [
+      {
+        "value": "yes",
+        "label": "होय",
+        "icon": "check"
+      },
+      {
+        "value": "no",
+        "label": "नाही",
+        "icon": "cross"
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "concept": "tailoring",
+      "label": "शिवणकाम",
+      "icon": "tailoring"
+    },
+    {
+      "concept": "beauty",
+      "label": "ब्युटी पार्लर",
+      "icon": "beauty"
+    },
+    {
+      "concept": "electrician",
+      "label": "वीजकाम",
+      "icon": "electrician"
+    },
+    {
+      "concept": "mobile_repair",
+      "label": "मोबाईल दुरुस्ती",
+      "icon": "mobile"
+    },
+    {
+      "concept": "dairy",
+      "label": "दूध डेअरी",
+      "icon": "dairy"
+    },
+    {
+      "concept": "poultry",
+      "label": "कुक्कुटपालन",
+      "icon": "poultry"
+    },
+    {
+      "concept": "food_processing",
+      "label": "अन्न प्रक्रिया",
+      "icon": "food"
+    },
+    {
+      "concept": "retail",
+      "label": "दुकानातील काम",
+      "icon": "retail"
+    }
+  ],
+  "recommendation": {
+    "primary_intro": "तुमच्यासाठी सर्वात योग्य अभ्यासक्रम आहे {course}.",
+    "level_phrase": "हा {level} स्तराचा कौशल्य अभ्यासक्रम आहे.",
+    "duration_phrase": "याचा कालावधी {hours} तास आहे.",
+    "centre_phrase": "तुमच्या जिल्ह्यात {seats} जागा उपलब्ध आहेत.",
+    "no_centre_phrase": "तुमच्या जिल्ह्यात सध्या जागांची माहिती नाही.",
+    "assistance_phrase": "यानंतर स्वतःचे काम सुरू करण्यासाठी तुम्हाला कर्ज सहाय्य मिळू शकते — {assistance}.",
+    "women_note": "महिलांसाठी किमान तीस टक्के जागा राखीव आहेत.",
+    "alternatives_intro": "आणखी दोन पर्यायही आहेत.",
+    "next_step": "तुमच्या जिल्हा कौशल्य केंद्रात या अभ्यासक्रमाबद्दल विचारा.",
+    "stretch_note": "हा अभ्यासक्रम तुमच्या शिक्षणापेक्षा थोडा वरचा आहे, पण तुम्ही करू शकता.",
+    "digit_by_digit": "पन्नास हजार म्हणजे पाच-शून्य-शून्य-शून्य-शून्य."
+  },
+  "menu": {
+    "replay": "पुन्हा ऐका",
+    "alternatives": "पर्याय ऐका",
+    "sms": "SMS पाठवा",
+    "finish": "संपले",
+    "back": "मागे",
+    "more": "आणखी पर्याय",
+    "repeat_number": "क्रमांक पुन्हा सांगा"
+  },
+  "summary": {
+    "title": "तुमची कौशल्य सूचना",
+    "course_label": "अभ्यासक्रम",
+    "level_label": "स्तर",
+    "duration_label": "कालावधी",
+    "sector_label": "क्षेत्र",
+    "district_label": "जिल्हा",
+    "assistance_label": "सहाय्य",
+    "next_step_label": "पुढचे पाऊल",
+    "disclaimer": "हा AI सल्ला आहे. नक्की माहितीसाठी तुमच्या अधिकाऱ्याकडून खात्री करा.",
+    "sms_prefix": "AVSAR सूचना:"
+  },
+  "errors": {
+    "asr_empty": "क्षमस्व, आवाज स्पष्ट आला नाही. तुम्ही बटण दाबूनही सांगू शकता.",
+    "network_error": "नेटवर्कमध्ये अडचण आहे. कृपया थोड्या वेळाने पुन्हा प्रयत्न करा.",
+    "db_unavailable": "आमची माहिती सध्या उपलब्ध नाही. कृपया थोड्या वेळाने पुन्हा प्रयत्न करा.",
+    "consent_required": "पुढे जाण्यासाठी आधी तुमची संमती आवश्यक आहे.",
+    "session_not_found": "हे संभाषण सापडले नाही. कृपया नव्याने सुरू करा.",
+    "out_of_scope": "ही माहिती माझ्याकडे नाही. मी तुम्हाला अधिकाऱ्याशी जोडू शकतो.",
+    "provider_unavailable": "आवाज सेवा सध्या उपलब्ध नाही, आम्ही लिहून सांगत आहोत.",
+    "rate_limited": "खूप वेगाने प्रयत्न होत आहेत. एक मिनिट थांबून पुन्हा बोला.",
+    "no_match": "तुमच्या बोलण्याशी जुळणारा अभ्यासक्रम सापडला नाही. मी तुम्हाला अधिकाऱ्याशी जोडू शकतो."
+  },
+  "ui": {
+    "app_name": "अवसर",
+    "tagline": "बोला, तुमचा अभ्यासक्रम मिळवा",
+    "start": "संभाषण सुरू करा",
+    "listening": "ऐकत आहे…",
+    "processing": "विचार करत आहे…",
+    "speaking": "बोलत आहे…",
+    "tap_to_speak": "बोलण्यासाठी दाबा",
+    "tap_to_stop": "थांबवण्यासाठी दाबा",
+    "progress": "टप्पा {current} / {total}",
+    "confidence_high": "स्पष्ट ऐकू आले",
+    "confidence_medium": "थोडे अस्पष्ट",
+    "confidence_low": "नीट ऐकू आले नाही",
+    "skip": "वगळा",
+    "change": "बदला",
+    "synthetic_badge": "नमुना माहिती",
+    "beta_notice": "हा बीटा AI सहाय्यक आहे. चूक होऊ शकते — अधिकाऱ्याकडून खात्री करा.",
+    "offline_notice": "इंटरनेट नाही — तुमचे संभाषण नेटशिवाय चालू आहे."
+  }
+}

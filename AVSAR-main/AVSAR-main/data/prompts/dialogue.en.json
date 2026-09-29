@@ -1,0 +1,194 @@
+{
+  "lang": "en",
+  "name": "English",
+  "name_en": "English",
+  "dir": "ltr",
+  "script": "Latin",
+  "_doc": "Spoken prompts as DATA (PLAN.md §5.2). Tone rules from PLAN.md §7: short, one clause per sentence, respectful, never 'customer', no jargon — 'NSQF level 3' is spoken as 'a level 3 skill course'. Max 4 options spoken at once (RULE 7).",
+  "consent": {
+    "playback_ref": "dialogue.en.json#consent.line",
+    "line": "Your information will be recorded only for skill advice and scheme linkage. You can stop at any time by saying 'stop'.",
+    "detail": "We will not ask for your name. Giving a phone number is not required.",
+    "question": "Shall we continue?",
+    "accept": "Yes, continue",
+    "decline": "No",
+    "replay": "Play again",
+    "granted_ack": "Thank you. I will now ask five short questions.",
+    "declined_ack": "That is fine. None of your information has been kept. Thank you."
+  },
+  "steps": {
+    "language_select": {
+      "prompt": "Choose your language.",
+      "short": "Language",
+      "help": "You can speak or tap to choose."
+    },
+    "profile_district": {
+      "prompt": "Which district do you live in?",
+      "short": "District",
+      "help": "Say the district name or pick it from the list."
+    },
+    "profile_age_band": {
+      "prompt": "Which age group are you in?",
+      "short": "Age",
+      "help": "Choose one."
+    },
+    "profile_gender": {
+      "prompt": "Are you female, male, or other?",
+      "short": "Gender",
+      "help": "This is asked to track the share reserved for women."
+    },
+    "profile_education": {
+      "prompt": "How far did you study?",
+      "short": "Education",
+      "help": "This decides which course will suit you."
+    },
+    "profile_current_work": {
+      "prompt": "What work do you do now?",
+      "short": "Work",
+      "help": "Choose one."
+    },
+    "aspiration": {
+      "prompt": "What work would you like to learn? Please say it aloud.",
+      "short": "Your aspiration",
+      "help": "For example — tailoring, beauty parlour, mobile repair.",
+      "record_hint": "Press the mic and speak. Up to fifteen seconds."
+    },
+    "clarify": {
+      "prompt": "I did not catch that clearly.",
+      "short": "Again",
+      "help": "Did you mean one of these?"
+    },
+    "confirm_intent": {
+      "prompt": "I understood — {concept}. Is that right?",
+      "short": "Confirm",
+      "help": "Say yes, or change it."
+    },
+    "recommendation": {
+      "prompt": "This course seems the best fit for you.",
+      "short": "Suggestion",
+      "help": "You can hear it again or look at other options."
+    },
+    "summary": {
+      "prompt": "Here are your full details.",
+      "short": "Summary",
+      "help": "You can read this or show it to your officer."
+    },
+    "menu_mode": {
+      "prompt": "The audio is not coming through clearly. Please choose using the buttons.",
+      "short": "Button mode",
+      "help": "Press the number shown beside each option."
+    },
+    "end": {
+      "prompt": "Thank you. Have a good day.",
+      "short": "Finished",
+      "help": "You can start again whenever you like."
+    }
+  },
+  "options": {
+    "age_band": [
+      { "value": "under_18", "label": "Under 18 years", "icon": "child" },
+      { "value": "18_30", "label": "18 to 30 years", "icon": "youth" },
+      { "value": "30_45", "label": "30 to 45 years", "icon": "adult" },
+      { "value": "45_plus", "label": "Over 45 years", "icon": "elder" }
+    ],
+    "gender": [
+      { "value": "female", "label": "Female", "icon": "female" },
+      { "value": "male", "label": "Male", "icon": "male" },
+      { "value": "other", "label": "Other", "icon": "other" }
+    ],
+    "edu_level": [
+      { "value": "none", "label": "Did not attend school", "icon": "none" },
+      { "value": "up_to_5th", "label": "Up to class 5", "icon": "book1" },
+      { "value": "5th_8th", "label": "Class 5 to 8", "icon": "book2" },
+      { "value": "8th_10th", "label": "Class 8 to 10", "icon": "book3" },
+      { "value": "10th_12th", "label": "Class 10 to 12", "icon": "book4" },
+      { "value": "grad_plus", "label": "Graduate or above", "icon": "cap" }
+    ],
+    "current_work": [
+      { "value": "unemployed", "label": "No work at present", "icon": "search" },
+      { "value": "farm_labour", "label": "Farm labour", "icon": "farm" },
+      { "value": "artisan", "label": "Artisan work", "icon": "craft" },
+      { "value": "shg_member", "label": "Self-help group member", "icon": "group" },
+      { "value": "small_trade", "label": "Small trade", "icon": "shop" },
+      { "value": "other", "label": "Something else", "icon": "other" }
+    ],
+    "yes_no": [
+      { "value": "yes", "label": "Yes", "icon": "check" },
+      { "value": "no", "label": "No", "icon": "cross" }
+    ]
+  },
+  "suggestions": [
+    { "concept": "tailoring", "label": "Tailoring", "icon": "tailoring" },
+    { "concept": "beauty", "label": "Beauty parlour", "icon": "beauty" },
+    { "concept": "electrician", "label": "Electrical work", "icon": "electrician" },
+    { "concept": "mobile_repair", "label": "Mobile repair", "icon": "mobile" },
+    { "concept": "dairy", "label": "Dairy", "icon": "dairy" },
+    { "concept": "poultry", "label": "Poultry farming", "icon": "poultry" },
+    { "concept": "food_processing", "label": "Food processing", "icon": "food" },
+    { "concept": "retail", "label": "Shop work", "icon": "retail" }
+  ],
+  "recommendation": {
+    "primary_intro": "The course that fits you best is {course}.",
+    "level_phrase": "This is a level {level} skill course.",
+    "duration_phrase": "It runs for {hours} hours.",
+    "centre_phrase": "There are {seats} seats available in your district.",
+    "no_centre_phrase": "There is no seat information for your district yet.",
+    "assistance_phrase": "Afterwards, to start your own work you may receive loan support — {assistance}.",
+    "women_note": "At least thirty percent of seats are reserved for women.",
+    "alternatives_intro": "There are two more options.",
+    "next_step": "Ask about this course at your district skill centre.",
+    "stretch_note": "This course is a little above your current education, but you can do it.",
+    "digit_by_digit": "Fifty thousand, that is five-zero-zero-zero-zero."
+  },
+  "menu": {
+    "replay": "Play again",
+    "alternatives": "Hear options",
+    "sms": "Send SMS",
+    "finish": "Finish",
+    "back": "Back",
+    "more": "More options",
+    "repeat_number": "Repeat the number"
+  },
+  "summary": {
+    "title": "Your skill suggestion",
+    "course_label": "Course",
+    "level_label": "Level",
+    "duration_label": "Duration",
+    "sector_label": "Sector",
+    "district_label": "District",
+    "assistance_label": "Support",
+    "next_step_label": "Next step",
+    "disclaimer": "This is AI guidance. Please confirm with your officer before acting on it.",
+    "sms_prefix": "AVSAR suggestion:"
+  },
+  "errors": {
+    "asr_empty": "Sorry, I could not hear that clearly. You can also tap a button to answer.",
+    "network_error": "There is a network problem. Please try again in a moment.",
+    "db_unavailable": "Our information is not available right now. Please try again shortly.",
+    "consent_required": "Your consent is needed before we continue.",
+    "session_not_found": "That conversation was not found. Please start again.",
+    "out_of_scope": "I do not have that information. I can connect you to an officer.",
+    "provider_unavailable": "The voice service is unavailable, so we are showing this as text.",
+    "rate_limited": "That was too fast. Please wait a minute and speak again.",
+    "no_match": "I could not find a course matching what you said. I can connect you to an officer."
+  },
+  "ui": {
+    "app_name": "AVSAR",
+    "tagline": "Speak up, find your course",
+    "start": "Start conversation",
+    "listening": "Listening…",
+    "processing": "Thinking…",
+    "speaking": "Speaking…",
+    "tap_to_speak": "Press to speak",
+    "tap_to_stop": "Press to stop",
+    "progress": "Step {current} of {total}",
+    "confidence_high": "Heard clearly",
+    "confidence_medium": "A little unclear",
+    "confidence_low": "Could not hear properly",
+    "skip": "Skip",
+    "change": "Change",
+    "synthetic_badge": "Sample data",
+    "beta_notice": "This is a beta AI assistant. It can make mistakes — please confirm with your officer.",
+    "offline_notice": "No internet — your conversation is running offline."
+  }
+}

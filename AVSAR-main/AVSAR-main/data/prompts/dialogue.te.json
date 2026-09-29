@@ -1,0 +1,310 @@
+{
+  "lang": "te",
+  "name": "తెలుగు",
+  "name_en": "Telugu",
+  "dir": "ltr",
+  "script": "Telugu",
+  "_doc": "Spoken prompts as DATA (PLAN.md §5.2). Tone rules from PLAN.md §7: short, one clause per sentence, respectful మీరు, no jargon — 'NSQF level 3' is spoken as '3 స్థాయి నైపుణ్య కోర్సు'. Max 4 options spoken at once (RULE 7).",
+  "consent": {
+    "playback_ref": "dialogue.te.json#consent.line",
+    "line": "మీ సమాచారం కేవలం నైపుణ్య సలహా మరియు పథకం అనుసంధానం కోసం మాత్రమే నమోదు చేయబడుతుంది. మీరు ఎప్పుడైనా 'ఆపండి' అని చెప్పి వైదొలగవచ్చు.",
+    "detail": "మేము మీ పేరు అడగము. ఫోన్ నంబర్ ఇవ్వడం తప్పనిసరి కాదు.",
+    "question": "మనం ముందుకు వెళ్దామా?",
+    "accept": "అవును, ముందుకు వెళ్లండి",
+    "decline": "వద్దు",
+    "replay": "మళ్లీ వినండి",
+    "granted_ack": "ధన్యవాదాలు. ఇప్పుడు ఐదు చిన్న ప్రశ్నలు అడుగుతాను.",
+    "declined_ack": "సరే. మీ సమాచారం ఏదీ నిల్వ చేయలేదు. ధన్యవాదాలు."
+  },
+  "steps": {
+    "language_select": {
+      "prompt": "మీ భాషను ఎంచుకోండి.",
+      "short": "భాష",
+      "help": "మీరు మాట్లాడి లేదా బటన్ నొక్కి ఎంచుకోవచ్చు."
+    },
+    "profile_district": {
+      "prompt": "మీరు ఏ జిల్లాలో నివసిస్తున్నారు?",
+      "short": "జిల్లా",
+      "help": "జిల్లా పేరు చెప్పండి లేదా జాబితా నుండి ఎంచుకోండి."
+    },
+    "profile_age_band": {
+      "prompt": "మీ వయస్సు ఏ వర్గంలో ఉంది?",
+      "short": "వయస్సు",
+      "help": "ఒకటి ఎంచుకోండి."
+    },
+    "profile_gender": {
+      "prompt": "మీరు మహిళా, పురుషుడా, లేక ఇతరులా?",
+      "short": "లింగం",
+      "help": "మహిళలకు నిర్ణయించిన వాటాను చూడటానికి ఇది అడుగుతున్నాము."
+    },
+    "profile_education": {
+      "prompt": "మీరు ఎంత వరకు చదువుకున్నారు?",
+      "short": "చదువు",
+      "help": "దీని ఆధారంగా ఏ కోర్సు సరిపోతుందో నిర్ణయమవుతుంది."
+    },
+    "profile_current_work": {
+      "prompt": "ప్రస్తుతం మీరు ఏ పని చేస్తున్నారు?",
+      "short": "పని",
+      "help": "ఒకటి ఎంచుకోండి."
+    },
+    "aspiration": {
+      "prompt": "మీరు ఏ పని నేర్చుకోవాలనుకుంటున్నారు? మాట్లాడి చెప్పండి.",
+      "short": "మీ ఆకాంక్ష",
+      "help": "ఉదాహరణకు — కుట్టు పని, బ్యూటీ పార్లర్, మొబైల్ రిపేర్.",
+      "record_hint": "మైక్ నొక్కి మాట్లాడండి. పదిహేను సెకన్ల వరకు."
+    },
+    "clarify": {
+      "prompt": "నాకు సరిగ్గా అర్థం కాలేదు.",
+      "short": "మళ్లీ",
+      "help": "మీరు వీటిలో దేని గురించి మాట్లాడుతున్నారు?"
+    },
+    "confirm_intent": {
+      "prompt": "అర్థమైంది — {concept}. ఇది సరైనదేనా?",
+      "short": "నిర్ధారణ",
+      "help": "అవును అనండి లేదా మార్చండి."
+    },
+    "recommendation": {
+      "prompt": "మీకు ఈ కోర్సు అత్యంత సరిపోతుంది.",
+      "short": "సూచన",
+      "help": "మీరు దీన్ని మళ్లీ వినవచ్చు లేదా ఇతర ఎంపికలు చూడవచ్చు."
+    },
+    "summary": {
+      "prompt": "ఇదిగో మీ పూర్తి వివరాలు.",
+      "short": "సారాంశం",
+      "help": "మీరు దీన్ని చదవవచ్చు లేదా అధికారికి చూపవచ్చు."
+    },
+    "menu_mode": {
+      "prompt": "మాట స్పష్టంగా వినిపించడం లేదు. ఇప్పుడు బటన్‌తో ఎంచుకోండి.",
+      "short": "బటన్ మోడ్",
+      "help": "ప్రతి ఎంపిక ముందున్న సంఖ్యను నొక్కండి."
+    },
+    "end": {
+      "prompt": "ధన్యవాదాలు. మీ రోజు శుభంగా గడవాలి.",
+      "short": "ముగింపు",
+      "help": "మీరు మళ్లీ ప్రారంభించవచ్చు."
+    }
+  },
+  "options": {
+    "age_band": [
+      {
+        "value": "under_18",
+        "label": "18 ఏళ్ల కంటే తక్కువ",
+        "icon": "child"
+      },
+      {
+        "value": "18_30",
+        "label": "18 నుండి 30 ఏళ్లు",
+        "icon": "youth"
+      },
+      {
+        "value": "30_45",
+        "label": "30 నుండి 45 ఏళ్లు",
+        "icon": "adult"
+      },
+      {
+        "value": "45_plus",
+        "label": "45 ఏళ్ల కంటే ఎక్కువ",
+        "icon": "elder"
+      }
+    ],
+    "gender": [
+      {
+        "value": "female",
+        "label": "మహిళ",
+        "icon": "female"
+      },
+      {
+        "value": "male",
+        "label": "పురుషుడు",
+        "icon": "male"
+      },
+      {
+        "value": "other",
+        "label": "ఇతరులు",
+        "icon": "other"
+      }
+    ],
+    "edu_level": [
+      {
+        "value": "none",
+        "label": "చదువుకోలేదు",
+        "icon": "none"
+      },
+      {
+        "value": "up_to_5th",
+        "label": "ఐదవ తరగతి వరకు",
+        "icon": "book1"
+      },
+      {
+        "value": "5th_8th",
+        "label": "ఐదు నుండి ఎనిమిది",
+        "icon": "book2"
+      },
+      {
+        "value": "8th_10th",
+        "label": "ఎనిమిది నుండి పది",
+        "icon": "book3"
+      },
+      {
+        "value": "10th_12th",
+        "label": "పది నుండి పన్నెండు",
+        "icon": "book4"
+      },
+      {
+        "value": "grad_plus",
+        "label": "డిగ్రీ లేదా పైన",
+        "icon": "cap"
+      }
+    ],
+    "current_work": [
+      {
+        "value": "unemployed",
+        "label": "పని లేదు",
+        "icon": "search"
+      },
+      {
+        "value": "farm_labour",
+        "label": "వ్యవసాయ కూలి",
+        "icon": "farm"
+      },
+      {
+        "value": "artisan",
+        "label": "చేతివృత్తి",
+        "icon": "craft"
+      },
+      {
+        "value": "shg_member",
+        "label": "స్వయం సహాయక సంఘం",
+        "icon": "group"
+      },
+      {
+        "value": "small_trade",
+        "label": "చిన్న వ్యాపారం",
+        "icon": "shop"
+      },
+      {
+        "value": "other",
+        "label": "మరేదైనా",
+        "icon": "other"
+      }
+    ],
+    "yes_no": [
+      {
+        "value": "yes",
+        "label": "అవును",
+        "icon": "check"
+      },
+      {
+        "value": "no",
+        "label": "కాదు",
+        "icon": "cross"
+      }
+    ]
+  },
+  "suggestions": [
+    {
+      "concept": "tailoring",
+      "label": "కుట్టు పని",
+      "icon": "tailoring"
+    },
+    {
+      "concept": "beauty",
+      "label": "బ్యూటీ పార్లర్",
+      "icon": "beauty"
+    },
+    {
+      "concept": "electrician",
+      "label": "విద్యుత్ పని",
+      "icon": "electrician"
+    },
+    {
+      "concept": "mobile_repair",
+      "label": "మొబైల్ రిపేర్",
+      "icon": "mobile"
+    },
+    {
+      "concept": "dairy",
+      "label": "పాల డెయిరీ",
+      "icon": "dairy"
+    },
+    {
+      "concept": "poultry",
+      "label": "కోళ్ల పెంపకం",
+      "icon": "poultry"
+    },
+    {
+      "concept": "food_processing",
+      "label": "ఆహార శుద్ధీకరణ",
+      "icon": "food"
+    },
+    {
+      "concept": "retail",
+      "label": "దుకాణం పని",
+      "icon": "retail"
+    }
+  ],
+  "recommendation": {
+    "primary_intro": "మీకు అత్యంత సరిపోయే కోర్సు {course}.",
+    "level_phrase": "ఇది {level} స్థాయి నైపుణ్య కోర్సు.",
+    "duration_phrase": "దీని వ్యవధి {hours} గంటలు.",
+    "centre_phrase": "మీ జిల్లాలో {seats} సీట్లు అందుబాటులో ఉన్నాయి.",
+    "no_centre_phrase": "మీ జిల్లాలో ప్రస్తుతం సీట్ల సమాచారం లేదు.",
+    "assistance_phrase": "ఆ తర్వాత మీ సొంత పని ప్రారంభించడానికి మీకు రుణ సహాయం లభించవచ్చు — {assistance}.",
+    "women_note": "మహిళలకు కనీసం ముప్పై శాతం సీట్లు కేటాయించబడ్డాయి.",
+    "alternatives_intro": "మరో రెండు ఎంపికలు కూడా ఉన్నాయి.",
+    "next_step": "మీ జిల్లా నైపుణ్య కేంద్రంలో ఈ కోర్సు గురించి అడగండి.",
+    "stretch_note": "ఈ కోర్సు మీ చదువు కంటే కొంచెం పైస్థాయిది, కానీ మీరు చేయగలరు.",
+    "digit_by_digit": "యాభై వేలు అంటే ఐదు-సున్నా-సున్నా-సున్నా-సున్నా."
+  },
+  "menu": {
+    "replay": "మళ్లీ వినండి",
+    "alternatives": "ఎంపికలు వినండి",
+    "sms": "SMS పంపండి",
+    "finish": "ముగించు",
+    "back": "వెనుకకు",
+    "more": "మరిన్ని ఎంపికలు",
+    "repeat_number": "సంఖ్యను మళ్లీ చెప్పండి"
+  },
+  "summary": {
+    "title": "మీ నైపుణ్య సూచన",
+    "course_label": "కోర్సు",
+    "level_label": "స్థాయి",
+    "duration_label": "వ్యవధి",
+    "sector_label": "రంగం",
+    "district_label": "జిల్లా",
+    "assistance_label": "సహాయం",
+    "next_step_label": "తదుపరి అడుగు",
+    "disclaimer": "ఇది AI సలహా. ఖచ్చితమైన సమాచారం కోసం మీ అధికారిని సంప్రదించండి.",
+    "sms_prefix": "AVSAR సూచన:"
+  },
+  "errors": {
+    "asr_empty": "క్షమించండి, మీ మాట స్పష్టంగా వినిపించలేదు. మీరు బటన్ నొక్కి కూడా చెప్పవచ్చు.",
+    "network_error": "నెట్‌వర్క్‌లో సమస్య ఉంది. దయచేసి కొద్దిసేపటి తర్వాత మళ్లీ ప్రయత్నించండి.",
+    "db_unavailable": "మా సమాచారం ప్రస్తుతం అందుబాటులో లేదు. దయచేసి కొద్దిసేపటి తర్వాత ప్రయత్నించండి.",
+    "consent_required": "ముందుకు వెళ్లడానికి మీ సమ్మతి అవసరం.",
+    "session_not_found": "ఈ సంభాషణ దొరకలేదు. దయచేసి కొత్తగా ప్రారంభించండి.",
+    "out_of_scope": "ఈ సమాచారం నా వద్ద లేదు. నేను మిమ్మల్ని అధికారికి కనెక్ట్ చేయగలను.",
+    "provider_unavailable": "వాయిస్ సేవ ప్రస్తుతం అందుబాటులో లేదు, మేము వ్రాసి చెబుతున్నాము.",
+    "rate_limited": "చాలా వేగంగా ప్రయత్నిస్తున్నారు. ఒక నిమిషం ఆగి మళ్లీ మాట్లాడండి.",
+    "no_match": "మీ మాటకు సరిపోయే కోర్సు దొరకలేదు. నేను మిమ్మల్ని అధికారికి కనెక్ట్ చేయగలను."
+  },
+  "ui": {
+    "app_name": "అవసర్",
+    "tagline": "మాట్లాడండి, మీ కోర్సు పొందండి",
+    "start": "సంభాషణ ప్రారంభించండి",
+    "listening": "వింటున్నాను…",
+    "processing": "ఆలోచిస్తున్నాను…",
+    "speaking": "చెబుతున్నాను…",
+    "tap_to_speak": "మాట్లాడటానికి నొక్కండి",
+    "tap_to_stop": "ఆపడానికి నొక్కండి",
+    "progress": "దశ {current} / {total}",
+    "confidence_high": "స్పష్టంగా వినిపించింది",
+    "confidence_medium": "కొంచెం అస్పష్టం",
+    "confidence_low": "సరిగ్గా వినిపించలేదు",
+    "skip": "వదిలేయండి",
+    "change": "మార్చండి",
+    "synthetic_badge": "నమూనా డేటా",
+    "beta_notice": "ఇది బీటా AI సహాయకుడు. పొరపాటు జరగవచ్చు — అధికారిని సంప్రదించండి.",
+    "offline_notice": "ఇంటర్నెట్ లేదు — మీ సంభాషణ నెట్ లేకుండా నడుస్తోంది."
+  }
+}

@@ -1,0 +1,65 @@
+# AVSAR crosswalk — Food processing, handicrafts & handlooms
+#
+# GIA domains 6 and 8 of the illustrative list (research.md §2.4):
+#   6 Food Processing        8 Handicrafts & Handlooms
+#
+# PLAN.md §5.2 names these clusters explicitly: "food processing/papad-pickle
+# units, handicrafts/handloom". Every qp_code is a real NCVET qualification
+# present in seeds/kaushalverse_qualifications.json.
+
+version: 1
+entries:
+  # ---------------------------------------------------------------- domain 6
+  - concept: food_processing
+    gia_domain: 6
+    status: reviewed
+    qp_codes: ["FI/Q03436", "FI/Q04925"]
+    notes: >-
+      The papad/pickle micro-unit that PLAN.md §5.2 calls out maps to the
+      register's pickle-and-paste and fruit-and-vegetable dehydration roles.
+    phrases:
+      hi: ["अचार पापड़ का काम", "अचार बनाना", "पापड़ बनाना", "फल सब्ज़ी सुखाना", "खाद्य प्रसंस्करण"]
+      mr: ["लोणचे पापड बनवणे", "लोणचे बनवणे", "अन्न प्रक्रिया", "फळ भाजी वाळवणे"]
+      te: ["ఊరగాయ అప్పడాల పని", "ఊరగాయ తయారీ", "ఆహార శుద్ధీకరణ", "పండ్లు కూరగాయలు ఎండబెట్టడం"]
+      en: ["food processing", "pickle making", "papad unit", "fruit and vegetable dehydration"]
+
+  - concept: bakery
+    gia_domain: 6
+    status: reviewed
+    qp_codes: ["FI/Q03332", "TH/Q01829", "TH/Q01825"]
+    phrases:
+      hi: ["बेकरी का काम", "ब्रेड बिस्कुट बनाना", "केक बनाना"]
+      mr: ["बेकरीचे काम", "केक बनवणे", "पाव बिस्किट बनवणे"]
+      te: ["బేకరీ పని", "కేక్ తయారీ", "బ్రెడ్ బిస్కెట్ తయారీ"]
+      en: ["bakery", "baker", "cake making", "confectionery"]
+
+  # ---------------------------------------------------------------- domain 8
+  - concept: handicrafts
+    gia_domain: 8
+    status: reviewed
+    qp_codes: ["HC/Q04017", "HC/Q04927", "HC/Q05224", "HC/Q04179", "HC/Q03854"]
+    phrases:
+      hi: ["हस्तशिल्प", "दस्तकारी", "बाँस का काम", "मूर्ति और चित्रकारी", "गहने बनाना"]
+      mr: ["हस्तकला", "बांबूचे काम", "दागिने बनवणे", "कलाकुसर"]
+      te: ["హస్తకళలు", "వెదురు పని", "నగల తయారీ", "చేతివృత్తి"]
+      en: ["handicrafts", "artisan work", "bamboo works", "fashion jewellery", "mural painting"]
+
+  - concept: embroidery
+    gia_domain: 8
+    status: reviewed
+    qp_codes: ["AP/Q01865"]
+    phrases:
+      hi: ["कढ़ाई का काम", "अड्डा कढ़ाई", "हाथ की कढ़ाई"]
+      mr: ["भरतकाम", "हाताचे भरतकाम"]
+      te: ["ఎంబ్రాయిడరీ పని", "చేతి కుట్టు అలంకరణ"]
+      en: ["embroidery", "hand embroiderer", "addawala"]
+
+  - concept: handloom_weaving
+    gia_domain: 8
+    status: reviewed
+    qp_codes: ["TX/Q04104", "TX/Q04105", "HC/Q04009"]
+    phrases:
+      hi: ["हथकरघा", "बुनाई का काम", "कलमकारी", "इकत बुनाई", "जूट का काम"]
+      mr: ["हातमाग", "विणकाम", "ज्यूटचे काम"]
+      te: ["చేనేత", "నేత పని", "కలంకారి", "ఇక్కత్ నేత"]
+      en: ["handloom weaving", "weaver", "kalamkari", "ikkat", "jute products"]

@@ -1,0 +1,65 @@
+{
+  "generated_by": "run_all",
+  "snapshots": [
+    {
+      "bytes": 180503,
+      "path": "seeds/centre_supply.json",
+      "sha256": "3a902afb424598b76b5317c7af1e9fe10b341d6ac23725e3857045ea5d989d46",
+      "status": "present"
+    },
+    {
+      "bytes": 5957931,
+      "path": "seeds/crosswalk.json",
+      "sha256": "e32378fe2df8e16927b772a49066e28a0edd89b9b433c1796c3bfe22dbde23a4",
+      "status": "present"
+    },
+    {
+      "bytes": 297052,
+      "path": "seeds/districts.json",
+      "sha256": "62be03c82e07ed5d33217bc75fada5f092a5af9f91e79f3837643b8bcbecf856",
+      "status": "present"
+    },
+    {
+      "bytes": 6273761,
+      "path": "seeds/doc_chunks.json",
+      "sha256": "45d3a158ae2958df9cceaaf166ea1200e0b01a0f7a1fdd4a46b660fb0b184f7e",
+      "status": "present"
+    },
+    {
+      "bytes": 883,
+      "path": "seeds/join_report.json",
+      "sha256": "ffeb1d3589e3d8c1770611cb56f20a95c5f50c4f82b8d0ff3ae639cf1b1e37c9",
+      "status": "present"
+    },
+    {
+      "bytes": 2010046,
+      "path": "seeds/kaushalverse_qualifications.json",
+      "sha256": "fb743e02fe867c44a44a785e5b7510ce9e837c552a787c60a3dc9a368d17c87a",
+      "status": "present"
+    },
+    {
+      "bytes": 559245,
+      "path": "seeds/pmajay_courses.json",
+      "sha256": "cf1d60a8cf22a96347ee1ba492bb038b51ef62f77cb53ec1132f775f3b69a61f",
+      "status": "present"
+    },
+    {
+      "bytes": 440904,
+      "path": "seeds/programmes.json",
+      "sha256": "6d9c1c2c316b167bbe751781ee306c2e0c3678e61662b23c485a5e132d9f868c",
+      "status": "present"
+    },
+    {
+      "bytes": 16306019,
+      "path": "seeds/qp_descriptions.json",
+      "sha256": "8ee23457fdee9c21acd3068ce0a1a619eca39cba03aea8f7c2f1aa6f5d54affc",
+      "status": "present"
+    },
+    {
+      "bytes": 90750,
+      "path": "seeds/training_centres.json",
+      "sha256": "a20025fb362a4e1de97d4433de3cf6d6806f116a1fd731473f010618c9b5fa09",
+      "status": "present"
+    }
+  ]
+}

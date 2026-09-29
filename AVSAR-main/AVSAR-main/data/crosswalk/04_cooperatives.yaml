@@ -1,0 +1,68 @@
+# AVSAR crosswalk — Cooperatives
+#
+# GIA domain 10 of the illustrative list (research.md §2.4).
+#
+# research.md §2.3 records that SC-majority SHGs are eligible entities under
+# GIA, and research.md §4.1 documents the DAY-NRLM federation structure
+# (SHG -> Village Organisation -> Cluster Level Federation) that AVSAR is meant
+# to complement rather than duplicate. The book-keeping / accounts roles below
+# are the QPs an SHG office-bearer such as PLAN.md §2's "Lakshmi" persona would
+# actually be routed to.
+#
+# Every qp_code is a real NCVET qualification in
+# seeds/kaushalverse_qualifications.json.
+
+version: 1
+entries:
+  - concept: shg_bookkeeping
+    gia_domain: 10
+    status: reviewed
+    qp_codes: ["BF/Q02856", "BFSI/Q04712"]
+    notes: >-
+      research.md §2.3 also requires every GIA training programme to include
+      financial literacy and a bank-linkable project proposal, which makes these
+      book-keeping QPs doubly relevant.
+    phrases:
+      hi:
+        - "स्वयं सहायता समूह का हिसाब"
+        - "समूह का खाता रखना"
+        - "बही खाता लिखना"
+        - "अकाउंट का काम"
+      mr:
+        - "बचत गटाचा हिशोब"
+        - "गटाचे खाते ठेवणे"
+        - "हिशोबाचे काम"
+      te:
+        - "స్వయం సహాయక సంఘం లెక్కలు"
+        - "సంఘం ఖాతాలు నిర్వహించడం"
+        - "అకౌంట్స్ పని"
+      en:
+        - "shg bookkeeping"
+        - "self help group accounts"
+        - "assistant bookkeeper"
+        - "accounts assistant"
+
+  - concept: micro_enterprise
+    gia_domain: 10
+    status: reviewed
+    qp_codes: ["ES/Q01752", "AG/Q01980"]
+    notes: >-
+      The entrepreneurship path. research.md §2.3 caps GIA loan assistance at the
+      figure held in scheme_constants.LOAN_ASSISTANCE_PHRASE_EN, and forbids
+      standalone asset distribution outside an appraised bundled project — both
+      facts surface when this concept is recommended.
+    phrases:
+      hi:
+        - "अपना काम शुरू करना है"
+        - "छोटा व्यापार शुरू करना"
+        - "खुद का धंधा"
+      mr:
+        - "स्वतःचा व्यवसाय सुरू करायचा आहे"
+        - "छोटा व्यवसाय"
+      te:
+        - "సొంత వ్యాపారం ప్రారంభించాలి"
+        - "చిన్న వ్యాపారం"
+      en:
+        - "start my own business"
+        - "micro enterprise"
+        - "self employment"

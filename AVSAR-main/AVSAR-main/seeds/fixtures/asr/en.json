@@ -1,0 +1,184 @@
+{
+  "clarify_threshold": 0.55,
+  "dialogue_steps_without_fixture": [],
+  "lang": "en",
+  "note": "Scripted ASR fixtures for VOICE_PROVIDER=mock. Transcripts are the answers a beneficiary gives at each dialogue step; no inference is performed and no network or credential is required.",
+  "steps": {
+    "aspiration": {
+      "confidence": 0.86,
+      "text": "I want to learn tailoring",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "gap": {
+          "confidence": 0.86,
+          "text": "I want to start poultry farming"
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "I want to learn tailoring"
+        },
+        "unknown": {
+          "confidence": 0.86,
+          "text": "I want to become an astronaut"
+        }
+      }
+    },
+    "clarify": {
+      "confidence": 0.86,
+      "text": "tailoring",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "tailoring"
+        }
+      }
+    },
+    "confirm_intent": {
+      "confidence": 0.86,
+      "text": "yes that is right",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "yes that is right"
+        }
+      }
+    },
+    "consent": {
+      "confidence": 0.86,
+      "text": "Yes, please continue",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "Yes, please continue"
+        }
+      }
+    },
+    "language_select": {
+      "confidence": 0.86,
+      "text": "English",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "English"
+        }
+      }
+    },
+    "profile_age_band": {
+      "confidence": 0.86,
+      "text": "eighteen to thirty",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "eighteen to thirty"
+        }
+      }
+    },
+    "profile_current_work": {
+      "confidence": 0.86,
+      "text": "currently no work",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "currently no work"
+        }
+      }
+    },
+    "profile_district": {
+      "confidence": 0.86,
+      "text": "Latur",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "Latur"
+        }
+      }
+    },
+    "profile_education": {
+      "confidence": 0.86,
+      "text": "eighth to tenth",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "eighth to tenth"
+        }
+      }
+    },
+    "profile_gender": {
+      "confidence": 0.86,
+      "text": "female",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "female"
+        }
+      }
+    },
+    "recommendation": {
+      "confidence": 0.86,
+      "text": "play it again",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "play it again"
+        }
+      }
+    },
+    "summary": {
+      "confidence": 0.86,
+      "text": "finish",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "finish"
+        }
+      }
+    }
+  }
+}

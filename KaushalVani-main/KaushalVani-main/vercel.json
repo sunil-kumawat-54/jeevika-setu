@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "buildCommand": "cd frontend && npm install && npm run build",
+  "outputDirectory": "frontend/dist",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://kaushalvani-backend.onrender.com/api/$1"
+    },
+    {
+      "source": "/ai/(.*)",
+      "destination": "https://kaushalvani-ai.onrender.com/ai/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "clarify_threshold": 0.55,
+  "dialogue_steps_without_fixture": [],
+  "lang": "hi",
+  "note": "Scripted ASR fixtures for VOICE_PROVIDER=mock. Transcripts are the answers a beneficiary gives at each dialogue step; no inference is performed and no network or credential is required.",
+  "steps": {
+    "aspiration": {
+      "confidence": 0.86,
+      "text": "मैं सिलाई का काम सीखना चाहती हूँ",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "gap": {
+          "confidence": 0.86,
+          "text": "मुर्गी पालन शुरू करना है"
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "मैं सिलाई का काम सीखना चाहती हूँ"
+        },
+        "unknown": {
+          "confidence": 0.86,
+          "text": "मुझे अंतरिक्ष यात्री बनना है"
+        }
+      }
+    },
+    "clarify": {
+      "confidence": 0.86,
+      "text": "सिलाई",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "सिलाई"
+        }
+      }
+    },
+    "confirm_intent": {
+      "confidence": 0.86,
+      "text": "हाँ, सही है",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "हाँ, सही है"
+        }
+      }
+    },
+    "consent": {
+      "confidence": 0.86,
+      "text": "हाँ, आगे बढ़ें",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "हाँ, आगे बढ़ें"
+        }
+      }
+    },
+    "language_select": {
+      "confidence": 0.86,
+      "text": "हिंदी",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "हिंदी"
+        }
+      }
+    },
+    "profile_age_band": {
+      "confidence": 0.86,
+      "text": "अठारह से तीस साल",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "अठारह से तीस साल"
+        }
+      }
+    },
+    "profile_current_work": {
+      "confidence": 0.86,
+      "text": "अभी कोई काम नहीं है",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "अभी कोई काम नहीं है"
+        }
+      }
+    },
+    "profile_district": {
+      "confidence": 0.86,
+      "text": "लातूर",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "लातूर"
+        }
+      }
+    },
+    "profile_education": {
+      "confidence": 0.86,
+      "text": "आठवीं से दसवीं तक",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "आठवीं से दसवीं तक"
+        }
+      }
+    },
+    "profile_gender": {
+      "confidence": 0.86,
+      "text": "महिला",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "महिला"
+        }
+      }
+    },
+    "recommendation": {
+      "confidence": 0.86,
+      "text": "फिर सुनें",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "फिर सुनें"
+        }
+      }
+    },
+    "summary": {
+      "confidence": 0.86,
+      "text": "खत्म",
+      "variants": {
+        "empty": {
+          "confidence": 0.0,
+          "text": ""
+        },
+        "low_confidence": {
+          "confidence": 0.41,
+          "text": "खत्म"
+        }
+      }
+    }
+  }
+}
